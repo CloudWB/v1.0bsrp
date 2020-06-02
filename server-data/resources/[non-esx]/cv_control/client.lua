@@ -22,7 +22,7 @@ local regulateur = 50
 Citizen.CreateThread(function()
   while true do
     Citizen.Wait(0)
-    if IsControlJustPressed(1, 26) and IsPedInAnyVehicle(GetPlayerPed(-1)) then
+    if IsControlJustPressed(1, 249) and IsPedInAnyVehicle(GetPlayerPed(-1)) then
             MainMenu()
             Menu.hidden = not Menu.hidden
             menuopen = not menuopen
@@ -40,7 +40,7 @@ function Notify(text)
 end
 
 function MainMenu()
-    options.menu_subtitle = "CATEGORIES"  
+    options.menu_subtitle = "CATEGORIES"
     ClearMenu()
     Menu.addButton("Allumer/Eteindre le Moteur", "onoffengine", nil)
     Menu.addButton("Régulateur de vitesse", "MenuSpeedo", 50)
@@ -49,18 +49,18 @@ function MainMenu()
 end
 
 function DoorMenu()
-    options.menu_subtitle = "CATEGORIES"  
+    options.menu_subtitle = "CATEGORIES"
     ClearMenu()
     Menu.addButton("Capot", "capot", nil)
     Menu.addButton("Coffre", "coffre", nil)
-    Menu.addButton("Portieres avant", "avant", nil)    
+    Menu.addButton("Portieres avant", "avant", nil)
     Menu.addButton("Portieres arrière", "arriere", nil)
-    Menu.addButton("Toutes les portes", "toute", nil)    
+    Menu.addButton("Toutes les portes", "toute", nil)
     Menu.addButton("Retour", "MainMenu", nil)
 end
 
 function avant()
-    options.menu_subtitle = "PORTIERES"  
+    options.menu_subtitle = "PORTIERES"
     ClearMenu()
     Menu.addButton("Avant gauche", "avantgauche", nil)
     Menu.addButton("Avant droite", "avantdroite", nil)
@@ -68,7 +68,7 @@ function avant()
 end
 
 function arriere()
-    options.menu_subtitle = "PORTIERES"  
+    options.menu_subtitle = "PORTIERES"
     ClearMenu()
     Menu.addButton("Arrière gauche", "arrieregauche", nil)
     Menu.addButton("Arrière droite", "arrieredroite", nil)
@@ -77,7 +77,7 @@ end
 
 function MenuSpeedo()
   if regulateur == 50 then
-    options.menu_subtitle = "RÉGULATEUR ACTUEL :  AUCUN"  
+    options.menu_subtitle = "RÉGULATEUR ACTUEL :  AUCUN"
   else
     options.menu_subtitle = "RÉGULATEUR ACTUEL : ~g~" ..regulateur..  "~s~ KPH"
   end
@@ -94,11 +94,11 @@ function capot()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 4) > 0.0 then 
+      if GetVehicleDoorAngleRatio(playerVeh, 4) > 0.0 then
          SetVehicleDoorShut(playerVeh, 4, false)
        else
          SetVehicleDoorOpen(playerVeh, 4, false)
-         frontleft = true        
+         frontleft = true
       end
    end
 end
@@ -107,11 +107,11 @@ function coffre()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 5) > 0.0 then 
+      if GetVehicleDoorAngleRatio(playerVeh, 5) > 0.0 then
          SetVehicleDoorShut(playerVeh, 5, false)
        else
          SetVehicleDoorOpen(playerVeh, 5, false)
-         frontleft = true        
+         frontleft = true
       end
    end
 end
@@ -120,7 +120,7 @@ function maxspeed()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    enableCruise = not enableCruise -- inverts bool
-   cruiseSpeed = GetEntitySpeed(veh)  
+   cruiseSpeed = GetEntitySpeed(veh)
    GetEntitySpeed(playerVeh, 10)
 end
 
@@ -128,11 +128,11 @@ function avantgauche()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 0) > 0.0 then 
+      if GetVehicleDoorAngleRatio(playerVeh, 0) > 0.0 then
          SetVehicleDoorShut(playerVeh, 0, false)
        else
          SetVehicleDoorOpen(playerVeh, 0, false)
-         frontleft = true        
+         frontleft = true
       end
    end
 end
@@ -146,11 +146,11 @@ function avantdroite()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 1) > 0.0 then 
+      if GetVehicleDoorAngleRatio(playerVeh, 1) > 0.0 then
          SetVehicleDoorShut(playerVeh, 1, false)
        else
          SetVehicleDoorOpen(playerVeh, 1, false)
-         frontleft = true        
+         frontleft = true
       end
    end
 end
@@ -159,11 +159,11 @@ function arrieredroite()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 3) > 0.0 then 
+      if GetVehicleDoorAngleRatio(playerVeh, 3) > 0.0 then
          SetVehicleDoorShut(playerVeh, 3, false)
        else
          SetVehicleDoorOpen(playerVeh, 3, false)
-         frontleft = true        
+         frontleft = true
       end
    end
 end
@@ -172,21 +172,21 @@ function toute()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 1) > 0.0 then 
-         SetVehicleDoorShut(playerVeh, 5, false)        
+      if GetVehicleDoorAngleRatio(playerVeh, 1) > 0.0 then
+         SetVehicleDoorShut(playerVeh, 5, false)
          SetVehicleDoorShut(playerVeh, 4, false)
          SetVehicleDoorShut(playerVeh, 3, false)
          SetVehicleDoorShut(playerVeh, 2, false)
          SetVehicleDoorShut(playerVeh, 1, false)
-         SetVehicleDoorShut(playerVeh, 0, false)         
+         SetVehicleDoorShut(playerVeh, 0, false)
        else
-         SetVehicleDoorOpen(playerVeh, 5, false)        
+         SetVehicleDoorOpen(playerVeh, 5, false)
          SetVehicleDoorOpen(playerVeh, 4, false)
          SetVehicleDoorOpen(playerVeh, 3, false)
          SetVehicleDoorOpen(playerVeh, 2, false)
          SetVehicleDoorOpen(playerVeh, 1, false)
-         SetVehicleDoorOpen(playerVeh, 0, false)  
-         frontleft = true        
+         SetVehicleDoorOpen(playerVeh, 0, false)
+         frontleft = true
       end
    end
 end
@@ -195,20 +195,20 @@ function arrieregauche()
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
    if ( IsPedSittingInAnyVehicle( playerPed ) ) then
-      if GetVehicleDoorAngleRatio(playerVeh, 2) > 0.0 then 
+      if GetVehicleDoorAngleRatio(playerVeh, 2) > 0.0 then
          SetVehicleDoorShut(playerVeh, 2, false)
        else
          SetVehicleDoorOpen(playerVeh, 2, false)
-         frontleft = true        
+         frontleft = true
       end
    end
 end
 
 Citizen.CreateThread(function()
   while true do
-    Citizen.Wait(0) 
+    Citizen.Wait(0)
     if regulateur == 50 then
-    else      
+    else
         speedo(regulateur)
       end
     end
@@ -216,8 +216,8 @@ end)
 
 function setregul()
         local ped = GetPlayerPed(-1)
-        local vehicle = GetVehiclePedIsIn(ped, false)  
-        local currSpeed = GetEntitySpeed(vehicle)*3.6  
+        local vehicle = GetVehiclePedIsIn(ped, false)
+        local currSpeed = GetEntitySpeed(vehicle)*3.6
         DisplayOnscreenKeyboard(1, "FMMC_MPM_NA", "", "", "", "", "", 20)
         while (UpdateOnscreenKeyboard() == 0) do
             DisableAllControlActions(0);
@@ -227,20 +227,20 @@ function setregul()
             local vitesse = GetOnscreenKeyboardResult()
           if not vitesse ~= nil then
           Notify("NIL")
-          else  
-          local res = tonumber(vitesse)  
+          else
+          local res = tonumber(vitesse)
           if currSpeed > res then
             Notify("~r~Tu ne peux pas car ta vitesse est supérieure à ~g~50 ~r~kph.")
-        else             
+        else
             speedo(res)
             regulateur = res
             MainMenu()
             Wait(1)
-            MenuSpeedo()  
-            Menu.selection = 1    
-            end      
+            MenuSpeedo()
+            Menu.selection = 1
+            end
           end
-        end      
+        end
 end
 
 function suprregu()
@@ -255,11 +255,11 @@ end
 
 function uprregu()
     local ped = GetPlayerPed(-1)
-    local vehicle = GetVehiclePedIsIn(ped, false)  
+    local vehicle = GetVehiclePedIsIn(ped, false)
     local currSpeed = GetEntitySpeed(vehicle)*3.6
     if currSpeed > regulateur then
       Notify("~r~Tu ne peux pas car ta vitesse est supérieure à ~g~50 ~r~kph.")
-    else  
+    else
   regulateur = regulateur +10
   MainMenu()
   Wait(1)
@@ -273,16 +273,16 @@ function downrregu()
     regulateur = 50
   MainMenu()
   Wait(1)
-  MenuSpeedo()      
+  MenuSpeedo()
 else
   if regulateur == 50 then
   regulateur = 50
   speedo(0)
-else  
+else
   regulateur = regulateur -10
   MainMenu()
   Wait(1)
-  MenuSpeedo()  
+  MenuSpeedo()
   Menu.selection = 1
 end
 end
@@ -290,22 +290,22 @@ end
 
 function speedo(vit)
     local ped = GetPlayerPed(-1)
-    local vehicle = GetVehiclePedIsIn(ped, false)  
+    local vehicle = GetVehiclePedIsIn(ped, false)
     local currSpeed = GetEntitySpeed(vehicle)*3.6
     speed = vit/3.62
-   
+
     local vehicleModel = GetEntityModel(vehicle)
-    local float Max = GetVehicleMaxSpeed(vehicleModel)  
+    local float Max = GetVehicleMaxSpeed(vehicleModel)
     if (vit == 0) then
     SetEntityMaxSpeed(vehicle, Max)
-    end      
+    end
   if currSpeed > vit then
   else
-   
+
     if (vit == 0) then
     SetEntityMaxSpeed(vehicle, Max)
     else
-    if vit == 0 and currSpeed < 5 then  
+    if vit == 0 and currSpeed < 5 then
     else
       SetEntityMaxSpeed(vehicle, speed)
   end
@@ -318,8 +318,8 @@ Citizen.CreateThread(function()
     Citizen.Wait(0)
         if limiteur then
           local ped = GetPlayerPed(-1)
-          local vehicle = GetVehiclePedIsIn(ped, false)          
-          SetEntityMaxSpeed(vehicle, speed) 
+          local vehicle = GetVehiclePedIsIn(ped, false)
+          SetEntityMaxSpeed(vehicle, speed)
        end
     end
 end)
@@ -328,13 +328,13 @@ function onoffengine()
   if engineon then
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
-   SetVehicleEngineOn(GetVehiclePedIsIn(GetPlayerPed(-1), false), false, false)    
+   SetVehicleEngineOn(GetVehiclePedIsIn(GetPlayerPed(-1), false), false, false)
    engineon = false
   else
    local playerPed = GetPlayerPed(-1)
    local playerVeh = GetVehiclePedIsIn(playerPed, false)
-   SetVehicleEngineOn(GetVehiclePedIsIn(GetPlayerPed(-1), false), true, false)   
-   engineon = true 
+   SetVehicleEngineOn(GetVehiclePedIsIn(GetPlayerPed(-1), false), true, false)
+   engineon = true
 end
 end
 
@@ -342,7 +342,7 @@ Citizen.CreateThread(function()
   while true do
     Citizen.Wait(0)
         if not engineon then
-          SetVehicleEngineOn(GetVehiclePedIsIn(GetPlayerPed(-1), false), false, false)     
+          SetVehicleEngineOn(GetVehiclePedIsIn(GetPlayerPed(-1), false), false, false)
        end
     end
 end)
@@ -361,9 +361,3 @@ Citizen.CreateThread(function()
        end
     end
 end)
-
-
-
-
-
-
