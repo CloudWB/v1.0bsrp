@@ -1,0 +1,1867 @@
+
+================================================================
+======== FXServer starting - 04/06/2020 à 17:57:11
+================================================================
+Creating script environments for _cfx_internal
+Found new resource Arkadia_Map in D:/v1.0bsrp\server-data/resources//Arkadia_Map
+Found new resource Arkadia_Map_ in D:/v1.0bsrp\server-data/resources//Arkadia_Map_
+Found new resource connectqueue in D:/v1.0bsrp\server-data/resources//connectqueue
+Found new resource esx_douane in D:/v1.0bsrp\server-data/resources//esx_douane
+Found new resource fivem in D:/v1.0bsrp\server-data/resources//fivem
+Found new resource fivem-awesome1501 in D:/v1.0bsrp\server-data/resources//fivem-awesome1501
+Found new resource halloween in D:/v1.0bsrp\server-data/resources//halloween
+Found new resource position in D:/v1.0bsrp\server-data/resources//position
+Found new resource reboot in D:/v1.0bsrp\server-data/resources//reboot
+Found new resource runcode in D:/v1.0bsrp\server-data/resources//runcode
+Found new resource ServerPassword in D:/v1.0bsrp\server-data/resources//ServerPassword
+Found new resource WeatherSnow in D:/v1.0bsrp\server-data/resources//WeatherSnow
+Found new resource monitor in D:\v1.0bsrp\server\citizen/system_resources//monitor
+Found new resource webadmin in D:\v1.0bsrp\server\citizen/system_resources//webadmin
+Found new resource FiveM-BanSql-1.0.8 in D:/v1.0bsrp\server-data/resources//[admin]/FiveM-BanSql-1.0.8
+Found new resource essentialmode in D:/v1.0bsrp\server-data/resources//[essential]/essentialmode
+Found new resource es_admin2 in D:/v1.0bsrp\server-data/resources//[essential]/es_admin2
+Found new resource es_extended in D:/v1.0bsrp\server-data/resources//[essential]/es_extended
+Found new resource pvp in D:/v1.0bsrp\server-data/resources//[essential]/pvp
+Found new resource replyandreport-esx in D:/v1.0bsrp\server-data/resources//[essential]/replyandreport-esx
+Found new resource race in D:/v1.0bsrp\server-data/resources//[gamemodes]/race
+Found new resource race-test in D:/v1.0bsrp\server-data/resources//[gamemodes]/race-test
+Found new resource channelfeed in D:/v1.0bsrp\server-data/resources//[gameplay]/channelfeed
+Found new resource irc in D:/v1.0bsrp\server-data/resources//[gameplay]/irc
+Found new resource obituary in D:/v1.0bsrp\server-data/resources//[gameplay]/obituary
+Found new resource obituary-deaths in D:/v1.0bsrp\server-data/resources//[gameplay]/obituary-deaths
+Found new resource playernames in D:/v1.0bsrp\server-data/resources//[gameplay]/playernames
+Found new resource dix-micro in D:/v1.0bsrp\server-data/resources//[hud]/dix-micro
+Found new resource esx_customui in D:/v1.0bsrp\server-data/resources//[hud]/esx_customui
+Found new resource hungerthirst in D:/v1.0bsrp\server-data/resources//[hud]/hungerthirst
+Found new resource panzar-load in D:/v1.0bsrp\server-data/resources//[hud]/panzar-load
+Found new resource speedometer in D:/v1.0bsrp\server-data/resources//[hud]/speedometer
+Found new resource async in D:/v1.0bsrp\server-data/resources//[libs]/async
+Found new resource esplugin_mysql in D:/v1.0bsrp\server-data/resources//[libs]/esplugin_mysql
+Found new resource mysql-async in D:/v1.0bsrp\server-data/resources//[libs]/mysql-async
+Found new resource screenshot-basic in D:/v1.0bsrp\server-data/resources//[local]/screenshot-basic
+Found new resource mapmanager in D:/v1.0bsrp\server-data/resources//[managers]/mapmanager
+Found new resource allcity_medical in D:/v1.0bsrp\server-data/resources//[mapping]/allcity_medical
+Found new resource Arkadia_gang in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_gang
+Found new resource Arkadia_medical in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_medical
+Found new resource Arkadia_sinaloa in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_sinaloa
+Found new resource Arkadia_unicorn in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_unicorn
+Found new resource coloredhud in D:/v1.0bsrp\server-data/resources//[mapping]/coloredhud
+Found new resource groovehus in D:/v1.0bsrp\server-data/resources//[mapping]/groovehus
+Found new resource lsms in D:/v1.0bsrp\server-data/resources//[mapping]/lsms
+Found new resource lspdloader in D:/v1.0bsrp\server-data/resources//[mapping]/lspdloader
+Found new resource mapbuilder in D:/v1.0bsrp\server-data/resources//[mapping]/mapbuilder
+Found new resource mappings in D:/v1.0bsrp\server-data/resources//[mapping]/mappings
+Found new resource modular_carlift in D:/v1.0bsrp\server-data/resources//[mapping]/modular_carlift
+Found new resource nw_bahamaMama in D:/v1.0bsrp\server-data/resources//[mapping]/nw_bahamaMama
+Found new resource nw_mine in D:/v1.0bsrp\server-data/resources//[mapping]/nw_mine
+Found new resource opendoor_madrazo in D:/v1.0bsrp\server-data/resources//[mapping]/opendoor_madrazo
+Found new resource prison-map-addon in D:/v1.0bsrp\server-data/resources//[mapping]/prison-map-addon
+Found new resource SLBK11_MissionRow in D:/v1.0bsrp\server-data/resources//[mapping]/SLBK11_MissionRow
+Found new resource streammap in D:/v1.0bsrp\server-data/resources//[mapping]/streammap
+Found new resource Arkadia_tenue_1 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_1
+Found new resource Arkadia_tenue_2 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_2
+Found new resource Arkadia_tenue_3 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_3
+Found new resource VetementHomme in D:/v1.0bsrp\server-data/resources//[skin]/VetementHomme
+Found new resource afkkick in D:/v1.0bsrp\server-data/resources//[system]/afkkick
+Found new resource baseevents in D:/v1.0bsrp\server-data/resources//[system]/baseevents
+Found new resource chat in D:/v1.0bsrp\server-data/resources//[system]/chat
+Found new resource chat-theme-civlifechat in D:/v1.0bsrp\server-data/resources//[system]/chat-theme-civlifechat
+Found new resource chat-theme-gtao in D:/v1.0bsrp\server-data/resources//[system]/chat-theme-gtao
+Found new resource chat1 in D:/v1.0bsrp\server-data/resources//[system]/chat1
+Found new resource hardcap in D:/v1.0bsrp\server-data/resources//[system]/hardcap
+Found new resource pingkick in D:/v1.0bsrp\server-data/resources//[system]/pingkick
+Found new resource rconlog in D:/v1.0bsrp\server-data/resources//[system]/rconlog
+Found new resource scoreboard in D:/v1.0bsrp\server-data/resources//[system]/scoreboard
+Found new resource sessionmanager in D:/v1.0bsrp\server-data/resources//[system]/sessionmanager
+Found new resource spawnmanager in D:/v1.0bsrp\server-data/resources//[system]/spawnmanager
+Found new resource betaguns in D:/v1.0bsrp\server-data/resources//[test]/betaguns
+Found new resource cron in D:/v1.0bsrp\server-data/resources//[test]/cron
+Found new resource gameInit in D:/v1.0bsrp\server-data/resources//[test]/gameInit
+Found new resource keks in D:/v1.0bsrp\server-data/resources//[test]/keks
+Found new resource ammunationVehicles in D:/v1.0bsrp\server-data/resources//[Voitures]/ammunationVehicles
+Found new resource Captain14_FBI in D:/v1.0bsrp\server-data/resources//[Voitures]/Captain14_FBI
+Found new resource Captain14_LSPD in D:/v1.0bsrp\server-data/resources//[Voitures]/Captain14_LSPD
+Found new resource DodgeEMS in D:/v1.0bsrp\server-data/resources//[Voitures]/DodgeEMS
+Found new resource taxi in D:/v1.0bsrp\server-data/resources//[Voitures]/taxi
+Found new resource esx-qalle-jail in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx-qalle-jail
+Found new resource esx_accessories in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_accessories
+Found new resource esx_announce in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_announce
+Found new resource esx_celldoors in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_celldoors
+Found new resource esx_dmvschool in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_dmvschool
+Found new resource esx_eden_clotheshop in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_eden_clotheshop
+Found new resource esx_entitysync in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_entitysync
+Found new resource esx_headbag in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_headbag
+Found new resource esx_ktackle in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_ktackle
+Found new resource esx_lscustom in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_lscustom
+Found new resource esx_mask in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_mask
+Found new resource esx_prw_tatooshop in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_prw_tatooshop
+Found new resource esx_quincaillerie in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_quincaillerie
+Found new resource esx_rpchat in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_rpchat
+Found new resource esx_tattoosShops in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_tattoosShops
+Found new resource esx_weapons in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weapons
+Found new resource esx_weaponscomponents in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weaponscomponents
+Found new resource esx_weashopsplus in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weashopsplus
+Found new resource NativeUI_barber in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/NativeUI_barber
+Found new resource NativeUI_shops in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/NativeUI_shops
+Found new resource skinchanger in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/skinchanger
+Found new resource vSync in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/vSync
+Found new resource esx_addonaccount in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addonaccount
+Found new resource esx_addoninventory in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addoninventory
+Found new resource esx_addonneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addonneeds
+Found new resource esx_barbershop in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_barbershop
+Found new resource esx_basicneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_basicneeds
+Found new resource esx_billing in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_billing
+Found new resource esx_datastore in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_datastore
+Found new resource esx_identity in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_identity
+Found new resource esx_license in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_license
+Found new resource esx_optionalneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_optionalneeds
+Found new resource esx_property in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_property
+Found new resource esx_skin in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_skin
+Found new resource esx_society in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_society
+Found new resource esx_status in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_status
+Found new resource instance in D:/v1.0bsrp\server-data/resources//[esx]/[base]/instance
+Found new resource esx-kr-vehicle-push in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx-kr-vehicle-push
+Found new resource esx_carshowroom in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_carshowroom
+Found new resource esx_eden_aircraftgarage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_aircraftgarage
+Found new resource esx_eden_boatgarage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_boatgarage
+Found new resource esx_eden_garage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_garage
+Found new resource ESX_GiveCarKeys-1.1 in D:/v1.0bsrp\server-data/resources//[esx]/[car]/ESX_GiveCarKeys-1.1
+Found new resource esx_legacyfuel in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_legacyfuel
+Found new resource esx_RealisticVehicleFailure in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_RealisticVehicleFailure
+Found new resource esx_trunk in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_trunk
+Found new resource esx_vehiclelock in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_vehiclelock
+Found new resource es_carwash in D:/v1.0bsrp\server-data/resources//[esx]/[car]/es_carwash
+Found new resource RealisticAirControl in D:/v1.0bsrp\server-data/resources//[esx]/[car]/RealisticAirControl
+Found new resource RealisticTraffic in D:/v1.0bsrp\server-data/resources//[esx]/[car]/RealisticTraffic
+Found new resource DiscordBot in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/DiscordBot
+Found new resource DiscordRichPresence in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/DiscordRichPresence
+Found new resource esx_discord_bot in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/esx_discord_bot
+Found new resource DopePlant in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/DopePlant
+Found new resource esx_bankrobberies in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_bankrobberies
+Found new resource esx_drill in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drill
+Found new resource esx_drugeffects in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drugeffects
+Found new resource esx_drugs in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drugs
+Found new resource esx_policemdt in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_policemdt
+Found new resource loffe_heist in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/loffe_heist
+Found new resource loffe_robbery in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/loffe_robbery
+Found new resource MF_DnaTracker in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_DnaTracker
+Found new resource MF_DrugSales in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_DrugSales
+Found new resource MF_Fleeca in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_Fleeca
+Found new resource MF_LockPicking in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_LockPicking
+Found new resource MF_PacificStandard in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_PacificStandard
+Found new resource MF_SafeCracker in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_SafeCracker
+Found new resource mhacking in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/mhacking
+Found new resource esx_ambulancejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_ambulancejob
+Found new resource esx_avocatjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_avocatjob
+Found new resource esx_bahamajob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_bahamajob
+Found new resource esx_bankerjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_bankerjob
+Found new resource esx_duty in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_duty
+Found new resource esx_illegal in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_illegal
+Found new resource esx_jk_jobs in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_jk_jobs
+Found new resource esx_joblisting in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_joblisting
+Found new resource esx_jobs in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_jobs
+Found new resource esx_journaliste in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_journaliste
+Found new resource esx_mecanojob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_mecanojob
+Found new resource esx_policejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_policejob
+Found new resource esx_pompistejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_pompistejob
+Found new resource esx_realestateagentjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_realestateagentjob
+Found new resource esx_securoservjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_securoservjob
+Found new resource esx_statejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_statejob
+Found new resource esx_tabacjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_tabacjob
+Found new resource esx_taxijob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_taxijob
+Found new resource esx_unicornjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_unicornjob
+Found new resource esx_vehicleshop in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_vehicleshop
+Found new resource esx_vigneronjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_vigneronjob
+Found new resource WeazelNewsCam in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/WeazelNewsCam
+Found new resource 3dme in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/3dme
+Found new resource Arkadia_personalmenu in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Arkadia_personalmenu
+Found new resource bob74_ipl in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/bob74_ipl
+Found new resource CalmAI in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/CalmAI
+Found new resource CarryPeople in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/CarryPeople
+Found new resource Car_Doors in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Car_Doors
+Found new resource DamageWalkMode in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/DamageWalkMode
+Found new resource deletearmevehicule in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/deletearmevehicule
+Found new resource disabledispatch in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/disabledispatch
+Found new resource eden_jail in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/eden_jail
+Found new resource elf_weaponfromcar in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/elf_weaponfromcar
+Found new resource ft_libs in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/ft_libs
+Found new resource gang_action in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/gang_action
+Found new resource gd_airport_ai_begone in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/gd_airport_ai_begone
+Found new resource guy293_voice in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/guy293_voice
+Found new resource InteractSoundS in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/InteractSoundS
+Found new resource iplLoader in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/iplLoader
+Found new resource JoinTransition in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/JoinTransition
+Found new resource jsfour-idcard in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/jsfour-idcard
+Found new resource knockout in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/knockout
+Found new resource kors in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/kors
+Found new resource kuana_bateria in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/kuana_bateria
+Found new resource lux_vehcontrol in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/lux_vehcontrol
+Found new resource NativeUI in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NativeUI
+Found new resource NativeUILua_Reloaded in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NativeUILua_Reloaded
+Found new resource new_banking in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/new_banking
+Found new resource nodroppnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/nodroppnj
+Found new resource NoReticle in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NoReticle
+Found new resource novehicleweapon in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/novehicleweapon
+Found new resource npcs in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/npcs
+Found new resource pausemenu-title in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/pausemenu-title
+Found new resource PiggyBack in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/PiggyBack
+Found new resource pNotify in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/pNotify
+Found new resource police_radio in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/police_radio
+Found new resource progressBars in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/progressBars
+Found new resource ProtectPnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/ProtectPnj
+Found new resource qalle_policearmory in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/qalle_policearmory
+Found new resource Radargun in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Radargun
+Found new resource radialmenu in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/radialmenu
+Found new resource Radiant_Animations in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Radiant_Animations
+Found new resource radio in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/radio
+Found new resource removeAIcops in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/removeAIcops
+Found new resource scriptpnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/scriptpnj
+Found new resource seatbelt in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/seatbelt
+Found new resource suptime in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/suptime
+Found new resource vdk_call in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/vdk_call
+Found new resource vir-deathscreen in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/vir-deathscreen
+Found new resource esx-checkdeathcause in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx-checkdeathcause
+Found new resource esx_addons_gcphone in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_addons_gcphone
+Found new resource esx_location in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_location
+Found new resource esx_pharmacy in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_pharmacy
+Found new resource esx_radio in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_radio
+Found new resource esx_scoreboard in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_scoreboard
+Found new resource esx_spectate in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_spectate
+Found new resource esx_synchro in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_synchro
+Found new resource esx_teleportpads in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_teleportpads
+Found new resource esx_teleports in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_teleports
+Found new resource esx_unishow in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_unishow
+Found new resource esx_utils in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_utils
+Found new resource esx_menu_default in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_default
+Found new resource esx_menu_dialog in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_dialog
+Found new resource esx_menu_list in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_list
+Found new resource webpack in D:/v1.0bsrp\server-data/resources//[system]/[builders]/webpack
+Found new resource yarn in D:/v1.0bsrp\server-data/resources//[system]/[builders]/yarn
+Found new resource esx_ballasjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_ballasjob
+Found new resource esx_bikerjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_bikerjob
+Found new resource esx_familliesjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_familliesjob
+Found new resource esx_vagosjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_vagosjob
+Found new resource esx_cartesim in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/[gcphone]/esx_cartesim
+Found new resource gcphone in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/[gcphone]/gcphone
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Creating script environments for webadmin
+Instantiated instance of script FxWebAdmin.BaseServer.
+Instantiated instance of script FxWebAdmin.HttpServer+HttpServerScript.
+Started resource webadmin
+Creating script environments for monitor
+[txAdminClientLUA] Version 2.5.0 starting...
+[txAdminClientJS] Logger started
+Started resource monitor
+Creating script environments for mapmanager
+Started resource mapmanager
+Creating script environments for chat
+Started resource chat
+Started resource spawnmanager
+Stopping resource sessionmanager
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Started gametype Freeroam
+Started resource fivem
+Creating script environments for rconlog
+Started resource rconlog
+Creating script environments for baseevents
+Started resource baseevents
+Creating script environments for mysql-async
+Started resource mysql-async
+Creating script environments for essentialmode
+Instantiated instance of script SQLite.Main.
+Started resource essentialmode
+Creating script environments for async
+Started resource async
+Creating script environments for esplugin_mysql
+Started resource esplugin_mysql
+Creating script environments for es_admin2
+Started resource es_admin2
+Creating script environments for es_extended
+Started resource es_extended
+Creating script environments for cron
+Started resource cron
+Creating script environments for instance
+Started resource instance
+Creating script environments for esx_scoreboard
+Started resource esx_scoreboard
+Creating script environments for replyandreport-esx
+Started resource replyandreport-esx
+Started resource esx_menu_default
+Started resource esx_menu_list
+Started resource esx_menu_dialog
+Started resource NativeUILua_Reloaded
+Started resource NativeUI
+Creating script environments for Arkadia_personalmenu
+Started resource Arkadia_personalmenu
+Started resource bob74_ipl
+Creating script environments for esx_addonaccount
+Started resource esx_addonaccount
+Creating script environments for esx_addoninventory
+Started resource esx_addoninventory
+Creating script environments for esx_datastore
+Started resource esx_datastore
+Creating script environments for esx_society
+Started resource esx_society
+Creating script environments for esx_billing
+Started resource esx_billing
+Creating script environments for connectqueue
+QUEUE:  [connectqueue] Désactivation de hardcap 
+Started resource connectqueue
+Started resource panzar-load
+Creating script environments for reboot
+Started resource reboot
+Creating script environments for vSync
+Started resource vSync
+Started resource pNotify
+Started resource pvp
+Creating script environments for scriptpnj
+Started resource scriptpnj
+Creating script environments for CalmAI
+CalmAI Loaded. AI is now Relaxed! Coded by NickThe0ne
+Started resource CalmAI
+Started resource gd_airport_ai_begone
+Creating script environments for ProtectPnj
+Started resource ProtectPnj
+Creating script environments for vdk_call
+Started resource vdk_call
+Creating script environments for gcphone
+Started resource gcphone
+Creating script environments for esx_addons_gcphone
+Started resource esx_addons_gcphone
+Creating script environments for esx_cartesim
+Started resource esx_cartesim
+Creating script environments for yarn
+Started resource yarn
+Creating script environments for webpack
+Started resource webpack
+Running build tasks on resource screenshot-basic - it'll restart once completed.
+Couldn't start resource screenshot-basic.
+Started resource knockout
+Started resource pausemenu-title
+Creating script environments for eden_jail
+Started resource eden_jail
+Creating script environments for suptime
+Started resource suptime
+Started resource progressBars
+Creating script environments for 3dme
+Started resource 3dme
+Started resource Radargun
+Started resource vir-deathscreen
+Creating script environments for esx-qalle-jail
+Started resource esx-qalle-jail
+Started resource esx_teleports
+Creating script environments for esx_ktackle
+Started resource esx_ktackle
+Creating script environments for esx_rpchat
+Started resource esx_rpchat
+Creating script environments for esx_license
+Started resource esx_license
+Creating script environments for esx_identity
+Started resource esx_identity
+Started resource skinchanger
+Creating script environments for esx_skin
+Started resource esx_skin
+Creating script environments for esx_accessories
+Started resource esx_accessories
+Started resource VetementHomme
+Creating script environments for Arkadia_tenue_1
+Started resource Arkadia_tenue_1
+Creating script environments for Arkadia_tenue_2
+Started resource Arkadia_tenue_2
+Creating script environments for esx_status
+Started resource esx_status
+Creating script environments for esx_basicneeds
+Started resource esx_basicneeds
+Creating script environments for esx_optionalneeds
+Started resource esx_optionalneeds
+Creating script environments for ft_libs
+Started resource ft_libs
+Creating script environments for esx_celldoors
+Started resource esx_celldoors
+Creating script environments for afkkick
+Started resource afkkick
+Started resource radio
+Creating script environments for esx_entitysync
+Started resource esx_entitysync
+Creating script environments for esx_vehicleshop
+= INFO = Enregistrement du telephone cardealer => Client concession
+Started resource esx_vehicleshop
+Creating script environments for esx_property
+Started resource esx_property
+Creating script environments for esx_weapons
+Started resource esx_weapons
+Creating script environments for esx_weaponscomponents
+Started resource esx_weaponscomponents
+Creating script environments for qalle_policearmory
+Started resource qalle_policearmory
+Creating script environments for esx_utils
+Started resource esx_utils
+Creating script environments for esx_dmvschool
+Started resource esx_dmvschool
+Creating script environments for NativeUI_shops
+Started resource NativeUI_shops
+Creating script environments for esx_bankrobberies
+Started resource esx_bankrobberies
+Creating script environments for esx_lscustom
+Started resource esx_lscustom
+Creating script environments for esx_eden_clotheshop
+Started resource esx_eden_clotheshop
+Creating script environments for NativeUI_barber
+Started resource NativeUI_barber
+Creating script environments for esx_prw_tatooshop
+Started resource esx_prw_tatooshop
+Creating script environments for esx_quincaillerie
+Started resource esx_quincaillerie
+Creating script environments for esx_joblisting
+Started resource esx_joblisting
+Creating script environments for esx_jk_jobs
+Started resource esx_jk_jobs
+Creating script environments for esx_avocatjob
+Started resource esx_avocatjob
+Creating script environments for esx_policejob
+= INFO = Enregistrement du telephone police => Alerte police
+Started resource esx_policejob
+Creating script environments for esx_unicornjob
+= INFO = Enregistrement du telephone unicorn => Citoyen
+Started resource esx_unicornjob
+Creating script environments for esx_bahamajob
+= INFO = Enregistrement du telephone bahama => Citoyen
+Started resource esx_bahamajob
+Creating script environments for esx_realestateagentjob
+= INFO = Enregistrement du telephone realestateagent => Translation [fr][client] does not exist
+Started resource esx_realestateagentjob
+Creating script environments for esx_duty
+Started resource esx_duty
+Couldn't find resource esx_ammunationjob.
+Creating script environments for esx_illegal
+Started resource esx_illegal
+Creating script environments for esx_jobs
+Started resource esx_jobs
+Creating script environments for esx_tabacjob
+Started resource esx_tabacjob
+Creating script environments for esx_ambulancejob
+= INFO = Enregistrement du telephone ambulance => Alerte Ambulance
+Started resource esx_ambulancejob
+Creating script environments for esx_mecanojob
+= INFO = Enregistrement du telephone mecano => Client mecano
+Started resource esx_mecanojob
+Creating script environments for esx_vigneronjob
+= INFO = Enregistrement du telephone vigne => Client vigne
+Started resource esx_vigneronjob
+Creating script environments for esx_taxijob
+= INFO = Enregistrement du telephone taxi => Client Taxi
+Started resource esx_taxijob
+Creating script environments for esx_pompistejob
+= INFO = Enregistrement du telephone pompiste => Client Imprimerie
+Started resource esx_pompistejob
+Creating script environments for esx_drugs
+Started resource esx_drugs
+Creating script environments for MF_DrugSales
+Started resource MF_DrugSales
+Creating script environments for DopePlant
+Started resource DopePlant
+Creating script environments for MF_LockPicking
+Started resource MF_LockPicking
+Creating script environments for MF_SafeCracker
+Started resource MF_SafeCracker
+Started resource mhacking
+Creating script environments for MF_Fleeca
+Started resource MF_Fleeca
+Creating script environments for loffe_heist
+Started resource loffe_heist
+Creating script environments for loffe_robbery
+Started resource loffe_robbery
+Started resource esx_carshowroom
+Creating script environments for esx_eden_garage
+Started resource esx_eden_garage
+Creating script environments for esx_trunk
+Started resource esx_trunk
+Creating script environments for esx_location
+Started resource esx_location
+Creating script environments for esx_RealisticVehicleFailure
+Started resource esx_RealisticVehicleFailure
+Creating script environments for esx_legacyfuel
+Started resource esx_legacyfuel
+Started resource esx-kr-vehicle-push
+Creating script environments for InteractSoundS
+Started resource InteractSoundS
+Started resource seatbelt
+Started resource speedometer
+Started resource RealisticAirControl
+Creating script environments for esx_vehiclelock
+Started resource esx_vehiclelock
+Started resource Car_Doors
+Creating script environments for lux_vehcontrol
+Started resource lux_vehcontrol
+Creating script environments for ESX_GiveCarKeys-1.1
+Started resource ESX_GiveCarKeys-1.1
+Started resource lspdloader
+Started resource prison-map-addon
+Started resource SLBK11_MissionRow
+Started resource nw_bahamaMama
+Started resource coloredhud
+Started resource nw_mine
+Started resource mapbuilder
+Started resource streammap
+Started resource Arkadia_unicorn
+Started resource mappings
+Started resource Arkadia_medical
+Started resource lsms
+Started resource modular_carlift
+Creating script environments for new_banking
+Started resource new_banking
+Creating script environments for jsfour-idcard
+Started resource jsfour-idcard
+Started resource police_radio
+Started resource gang_action
+Started resource esx-checkdeathcause
+Started resource DamageWalkMode
+Creating script environments for esx_customui
+Started resource esx_customui
+Creating script environments for CarryPeople
+Started resource CarryPeople
+Creating script environments for Radiant_Animations
+Started resource Radiant_Animations
+Started resource radialmenu
+Creating script environments for esx_announce
+Started resource esx_announce
+Creating script environments for esx_spectate
+Started resource esx_spectate
+Creating script environments for FiveM-BanSql-1.0.8
+Started resource FiveM-BanSql-1.0.8
+Creating script environments for ServerPassword
+Started resource ServerPassword
+Started resource Captain14_FBI
+Started resource taxi
+Started resource DodgeEMS
+Started resource ammunationVehicles
+Creating script environments for esx_discord_bot
+Started resource esx_discord_bot
+Creating script environments for DiscordBot
+
+
+ERROR
+DiscordBot: Please add your "Start" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "System Infos" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Cheat" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Killing Log" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Chat" webhook
+
+
+Started resource DiscordBot
+Started resource DiscordRichPresence
+Could not open logo.png for reading.
+Argument count mismatch (passed 2, wanted 3)
+Stopping resource sessionmanager
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Argument count mismatch (passed 4, wanted 2)
+Authenticating server license key...
+Server license key authentication succeeded. Welcome!
+screenshot-basic: built client.config.js
+screenshot-basic: built server.config.js
+D:\v1.0bsrp\server-data\resources\[local]\screenshot-basic\ui\src\main.ts
+[tsl] ERROR in D:\v1.0bsrp\server-data\resources\[local]\screenshot-basic\ui\src\main.ts(87,23)
+      TS2554: Expected 4 arguments, but got 2.
+D:\v1.0bsrp\server-data\resources\[local]\screenshot-basic\ui\src\main.ts
+[tsl] ERROR in D:\v1.0bsrp\server-data\resources\[local]\screenshot-basic\ui\src\main.ts(92,26)
+      TS2554: Expected 1 arguments, but got 0.
+D:\v1.0bsrp\server-data\resources\[local]\screenshot-basic\ui\src\main.ts
+[tsl] ERROR in D:\v1.0bsrp\server-data\resources\[local]\screenshot-basic\ui\src\main.ts(94,18)
+      TS2554: Expected 3 arguments, but got 2.
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[txAdminClientLUA] Threads and commands set up. All Ready.
+Started map Arkadia_Map_
+Started resource Arkadia_Map_
+Building resource screenshot-basic failed.
+Error data: webpack got an error
+Authenticating with Nucleus...
+server thread hitch warning: timer interval of 3799 milliseconds
+
+
+##############
+## DiscordBot
+##
+## Current Version: 1.5.2
+## Newest Version: 1.5.2
+##############
+
+
+
+
+##############
+## Server Developped & Edited by ikNox#6088
+##############
+
+
+[mysql-async] Database server connection established.
+        fff                          
+  cccc ff   xx  xx     rr rr    eee  
+cc     ffff   xx       rrr  r ee   e 
+cc     ff     xx   ... rr     eeeee  
+ ccccc ff   xx  xx ... rr      eeeee 
+                                     
+Authenticated with cfx.re Nucleus: https://cloud47-vjpvgr.users.cfx.re/
+La BanList a ete charger avec succes.
+La BanListHistory a ete charger avec succes.
+QUEUE: Dan Smith[steam:11000010c2709d9] a été placé 1/1 dans la queue
+QUEUE: Dan Smith[steam:11000010c2709d9] se connecte au serveur
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+bad guy
+INFO: User [1] Dan Smith authenticated - [1] [1] Dan Smith@127.0.0.1:62118:62118
+[SAUVEGARDE] Dan Smith
+[SAVED] SAUVEGARDE TOUT LES JOUEURS
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[SAUVEGARDE] Dan Smith
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[txAdminClientLUA] Kicking all players with reason: Server restarting (Cloud47).
+
+================================================================
+======== FXServer starting - 04/06/2020 à 18:05:32
+================================================================
+Creating script environments for _cfx_internal
+Found new resource Arkadia_Map in D:/v1.0bsrp\server-data/resources//Arkadia_Map
+Found new resource Arkadia_Map_ in D:/v1.0bsrp\server-data/resources//Arkadia_Map_
+Found new resource connectqueue in D:/v1.0bsrp\server-data/resources//connectqueue
+Found new resource esx_douane in D:/v1.0bsrp\server-data/resources//esx_douane
+Found new resource fivem in D:/v1.0bsrp\server-data/resources//fivem
+Found new resource fivem-awesome1501 in D:/v1.0bsrp\server-data/resources//fivem-awesome1501
+Found new resource halloween in D:/v1.0bsrp\server-data/resources//halloween
+Found new resource position in D:/v1.0bsrp\server-data/resources//position
+Found new resource reboot in D:/v1.0bsrp\server-data/resources//reboot
+Found new resource runcode in D:/v1.0bsrp\server-data/resources//runcode
+Found new resource ServerPassword in D:/v1.0bsrp\server-data/resources//ServerPassword
+Found new resource WeatherSnow in D:/v1.0bsrp\server-data/resources//WeatherSnow
+Found new resource monitor in D:\v1.0bsrp\server\citizen/system_resources//monitor
+Found new resource webadmin in D:\v1.0bsrp\server\citizen/system_resources//webadmin
+Found new resource FiveM-BanSql-1.0.8 in D:/v1.0bsrp\server-data/resources//[admin]/FiveM-BanSql-1.0.8
+Found new resource essentialmode in D:/v1.0bsrp\server-data/resources//[essential]/essentialmode
+Found new resource es_admin2 in D:/v1.0bsrp\server-data/resources//[essential]/es_admin2
+Found new resource es_extended in D:/v1.0bsrp\server-data/resources//[essential]/es_extended
+Found new resource pvp in D:/v1.0bsrp\server-data/resources//[essential]/pvp
+Found new resource replyandreport-esx in D:/v1.0bsrp\server-data/resources//[essential]/replyandreport-esx
+Found new resource race in D:/v1.0bsrp\server-data/resources//[gamemodes]/race
+Found new resource race-test in D:/v1.0bsrp\server-data/resources//[gamemodes]/race-test
+Found new resource channelfeed in D:/v1.0bsrp\server-data/resources//[gameplay]/channelfeed
+Found new resource irc in D:/v1.0bsrp\server-data/resources//[gameplay]/irc
+Found new resource obituary in D:/v1.0bsrp\server-data/resources//[gameplay]/obituary
+Found new resource obituary-deaths in D:/v1.0bsrp\server-data/resources//[gameplay]/obituary-deaths
+Found new resource playernames in D:/v1.0bsrp\server-data/resources//[gameplay]/playernames
+Found new resource dix-micro in D:/v1.0bsrp\server-data/resources//[hud]/dix-micro
+Found new resource esx_customui in D:/v1.0bsrp\server-data/resources//[hud]/esx_customui
+Found new resource hungerthirst in D:/v1.0bsrp\server-data/resources//[hud]/hungerthirst
+Found new resource panzar-load in D:/v1.0bsrp\server-data/resources//[hud]/panzar-load
+Found new resource speedometer in D:/v1.0bsrp\server-data/resources//[hud]/speedometer
+Found new resource async in D:/v1.0bsrp\server-data/resources//[libs]/async
+Found new resource esplugin_mysql in D:/v1.0bsrp\server-data/resources//[libs]/esplugin_mysql
+Found new resource mysql-async in D:/v1.0bsrp\server-data/resources//[libs]/mysql-async
+Found new resource screenshot-basic in D:/v1.0bsrp\server-data/resources//[local]/screenshot-basic
+Found new resource mapmanager in D:/v1.0bsrp\server-data/resources//[managers]/mapmanager
+Found new resource allcity_medical in D:/v1.0bsrp\server-data/resources//[mapping]/allcity_medical
+Found new resource Arkadia_gang in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_gang
+Found new resource Arkadia_medical in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_medical
+Found new resource Arkadia_sinaloa in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_sinaloa
+Found new resource Arkadia_unicorn in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_unicorn
+Found new resource coloredhud in D:/v1.0bsrp\server-data/resources//[mapping]/coloredhud
+Found new resource groovehus in D:/v1.0bsrp\server-data/resources//[mapping]/groovehus
+Found new resource lsms in D:/v1.0bsrp\server-data/resources//[mapping]/lsms
+Found new resource lspdloader in D:/v1.0bsrp\server-data/resources//[mapping]/lspdloader
+Found new resource mapbuilder in D:/v1.0bsrp\server-data/resources//[mapping]/mapbuilder
+Found new resource mappings in D:/v1.0bsrp\server-data/resources//[mapping]/mappings
+Found new resource modular_carlift in D:/v1.0bsrp\server-data/resources//[mapping]/modular_carlift
+Found new resource nw_bahamaMama in D:/v1.0bsrp\server-data/resources//[mapping]/nw_bahamaMama
+Found new resource nw_mine in D:/v1.0bsrp\server-data/resources//[mapping]/nw_mine
+Found new resource opendoor_madrazo in D:/v1.0bsrp\server-data/resources//[mapping]/opendoor_madrazo
+Found new resource prison-map-addon in D:/v1.0bsrp\server-data/resources//[mapping]/prison-map-addon
+Found new resource SLBK11_MissionRow in D:/v1.0bsrp\server-data/resources//[mapping]/SLBK11_MissionRow
+Found new resource streammap in D:/v1.0bsrp\server-data/resources//[mapping]/streammap
+Found new resource Arkadia_tenue_1 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_1
+Found new resource Arkadia_tenue_2 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_2
+Found new resource Arkadia_tenue_3 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_3
+Found new resource VetementHomme in D:/v1.0bsrp\server-data/resources//[skin]/VetementHomme
+Found new resource afkkick in D:/v1.0bsrp\server-data/resources//[system]/afkkick
+Found new resource baseevents in D:/v1.0bsrp\server-data/resources//[system]/baseevents
+Found new resource chat in D:/v1.0bsrp\server-data/resources//[system]/chat
+Found new resource chat-theme-civlifechat in D:/v1.0bsrp\server-data/resources//[system]/chat-theme-civlifechat
+Found new resource chat-theme-gtao in D:/v1.0bsrp\server-data/resources//[system]/chat-theme-gtao
+Found new resource chat1 in D:/v1.0bsrp\server-data/resources//[system]/chat1
+Found new resource hardcap in D:/v1.0bsrp\server-data/resources//[system]/hardcap
+Found new resource pingkick in D:/v1.0bsrp\server-data/resources//[system]/pingkick
+Found new resource rconlog in D:/v1.0bsrp\server-data/resources//[system]/rconlog
+Found new resource scoreboard in D:/v1.0bsrp\server-data/resources//[system]/scoreboard
+Found new resource sessionmanager in D:/v1.0bsrp\server-data/resources//[system]/sessionmanager
+Found new resource spawnmanager in D:/v1.0bsrp\server-data/resources//[system]/spawnmanager
+Found new resource betaguns in D:/v1.0bsrp\server-data/resources//[test]/betaguns
+Found new resource cron in D:/v1.0bsrp\server-data/resources//[test]/cron
+Found new resource gameInit in D:/v1.0bsrp\server-data/resources//[test]/gameInit
+Found new resource keks in D:/v1.0bsrp\server-data/resources//[test]/keks
+Found new resource ammunationVehicles in D:/v1.0bsrp\server-data/resources//[Voitures]/ammunationVehicles
+Found new resource Captain14_FBI in D:/v1.0bsrp\server-data/resources//[Voitures]/Captain14_FBI
+Found new resource Captain14_LSPD in D:/v1.0bsrp\server-data/resources//[Voitures]/Captain14_LSPD
+Found new resource DodgeEMS in D:/v1.0bsrp\server-data/resources//[Voitures]/DodgeEMS
+Found new resource taxi in D:/v1.0bsrp\server-data/resources//[Voitures]/taxi
+Found new resource esx-qalle-jail in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx-qalle-jail
+Found new resource esx_accessories in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_accessories
+Found new resource esx_announce in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_announce
+Found new resource esx_celldoors in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_celldoors
+Found new resource esx_dmvschool in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_dmvschool
+Found new resource esx_eden_clotheshop in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_eden_clotheshop
+Found new resource esx_entitysync in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_entitysync
+Found new resource esx_headbag in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_headbag
+Found new resource esx_ktackle in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_ktackle
+Found new resource esx_lscustom in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_lscustom
+Found new resource esx_mask in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_mask
+Found new resource esx_prw_tatooshop in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_prw_tatooshop
+Found new resource esx_quincaillerie in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_quincaillerie
+Found new resource esx_rpchat in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_rpchat
+Found new resource esx_tattoosShops in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_tattoosShops
+Found new resource esx_weapons in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weapons
+Found new resource esx_weaponscomponents in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weaponscomponents
+Found new resource esx_weashopsplus in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weashopsplus
+Found new resource NativeUI_barber in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/NativeUI_barber
+Found new resource NativeUI_shops in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/NativeUI_shops
+Found new resource skinchanger in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/skinchanger
+Found new resource vSync in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/vSync
+Found new resource esx_addonaccount in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addonaccount
+Found new resource esx_addoninventory in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addoninventory
+Found new resource esx_addonneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addonneeds
+Found new resource esx_barbershop in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_barbershop
+Found new resource esx_basicneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_basicneeds
+Found new resource esx_billing in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_billing
+Found new resource esx_datastore in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_datastore
+Found new resource esx_identity in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_identity
+Found new resource esx_license in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_license
+Found new resource esx_optionalneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_optionalneeds
+Found new resource esx_property in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_property
+Found new resource esx_skin in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_skin
+Found new resource esx_society in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_society
+Found new resource esx_status in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_status
+Found new resource instance in D:/v1.0bsrp\server-data/resources//[esx]/[base]/instance
+Found new resource esx-kr-vehicle-push in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx-kr-vehicle-push
+Found new resource esx_carshowroom in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_carshowroom
+Found new resource esx_eden_aircraftgarage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_aircraftgarage
+Found new resource esx_eden_boatgarage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_boatgarage
+Found new resource esx_eden_garage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_garage
+Found new resource ESX_GiveCarKeys-1.1 in D:/v1.0bsrp\server-data/resources//[esx]/[car]/ESX_GiveCarKeys-1.1
+Found new resource esx_legacyfuel in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_legacyfuel
+Found new resource esx_RealisticVehicleFailure in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_RealisticVehicleFailure
+Found new resource esx_trunk in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_trunk
+Found new resource esx_vehiclelock in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_vehiclelock
+Found new resource es_carwash in D:/v1.0bsrp\server-data/resources//[esx]/[car]/es_carwash
+Found new resource RealisticAirControl in D:/v1.0bsrp\server-data/resources//[esx]/[car]/RealisticAirControl
+Found new resource RealisticTraffic in D:/v1.0bsrp\server-data/resources//[esx]/[car]/RealisticTraffic
+Found new resource DiscordBot in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/DiscordBot
+Found new resource DiscordRichPresence in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/DiscordRichPresence
+Found new resource esx_discord_bot in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/esx_discord_bot
+Found new resource DopePlant in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/DopePlant
+Found new resource esx_bankrobberies in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_bankrobberies
+Found new resource esx_drill in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drill
+Found new resource esx_drugeffects in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drugeffects
+Found new resource esx_drugs in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drugs
+Found new resource esx_policemdt in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_policemdt
+Found new resource loffe_heist in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/loffe_heist
+Found new resource loffe_robbery in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/loffe_robbery
+Found new resource MF_DnaTracker in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_DnaTracker
+Found new resource MF_DrugSales in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_DrugSales
+Found new resource MF_Fleeca in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_Fleeca
+Found new resource MF_LockPicking in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_LockPicking
+Found new resource MF_PacificStandard in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_PacificStandard
+Found new resource MF_SafeCracker in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_SafeCracker
+Found new resource mhacking in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/mhacking
+Found new resource esx_ambulancejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_ambulancejob
+Found new resource esx_avocatjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_avocatjob
+Found new resource esx_bahamajob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_bahamajob
+Found new resource esx_bankerjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_bankerjob
+Found new resource esx_duty in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_duty
+Found new resource esx_illegal in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_illegal
+Found new resource esx_jk_jobs in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_jk_jobs
+Found new resource esx_joblisting in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_joblisting
+Found new resource esx_jobs in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_jobs
+Found new resource esx_journaliste in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_journaliste
+Found new resource esx_mecanojob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_mecanojob
+Found new resource esx_policejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_policejob
+Found new resource esx_pompistejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_pompistejob
+Found new resource esx_realestateagentjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_realestateagentjob
+Found new resource esx_securoservjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_securoservjob
+Found new resource esx_statejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_statejob
+Found new resource esx_tabacjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_tabacjob
+Found new resource esx_taxijob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_taxijob
+Found new resource esx_unicornjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_unicornjob
+Found new resource esx_vehicleshop in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_vehicleshop
+Found new resource esx_vigneronjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_vigneronjob
+Found new resource WeazelNewsCam in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/WeazelNewsCam
+Found new resource 3dme in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/3dme
+Found new resource Arkadia_personalmenu in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Arkadia_personalmenu
+Found new resource bob74_ipl in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/bob74_ipl
+Found new resource CalmAI in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/CalmAI
+Found new resource CarryPeople in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/CarryPeople
+Found new resource Car_Doors in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Car_Doors
+Found new resource DamageWalkMode in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/DamageWalkMode
+Found new resource deletearmevehicule in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/deletearmevehicule
+Found new resource disabledispatch in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/disabledispatch
+Found new resource eden_jail in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/eden_jail
+Found new resource elf_weaponfromcar in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/elf_weaponfromcar
+Found new resource ft_libs in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/ft_libs
+Found new resource gang_action in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/gang_action
+Found new resource gd_airport_ai_begone in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/gd_airport_ai_begone
+Found new resource guy293_voice in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/guy293_voice
+Found new resource InteractSoundS in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/InteractSoundS
+Found new resource iplLoader in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/iplLoader
+Found new resource JoinTransition in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/JoinTransition
+Found new resource jsfour-idcard in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/jsfour-idcard
+Found new resource knockout in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/knockout
+Found new resource kors in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/kors
+Found new resource kuana_bateria in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/kuana_bateria
+Found new resource lux_vehcontrol in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/lux_vehcontrol
+Found new resource NativeUI in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NativeUI
+Found new resource NativeUILua_Reloaded in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NativeUILua_Reloaded
+Found new resource new_banking in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/new_banking
+Found new resource nodroppnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/nodroppnj
+Found new resource NoReticle in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NoReticle
+Found new resource novehicleweapon in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/novehicleweapon
+Found new resource npcs in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/npcs
+Found new resource pausemenu-title in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/pausemenu-title
+Found new resource PiggyBack in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/PiggyBack
+Found new resource pNotify in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/pNotify
+Found new resource police_radio in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/police_radio
+Found new resource progressBars in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/progressBars
+Found new resource ProtectPnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/ProtectPnj
+Found new resource qalle_policearmory in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/qalle_policearmory
+Found new resource Radargun in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Radargun
+Found new resource radialmenu in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/radialmenu
+Found new resource Radiant_Animations in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Radiant_Animations
+Found new resource radio in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/radio
+Found new resource removeAIcops in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/removeAIcops
+Found new resource scriptpnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/scriptpnj
+Found new resource seatbelt in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/seatbelt
+Found new resource suptime in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/suptime
+Found new resource vdk_call in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/vdk_call
+Found new resource vir-deathscreen in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/vir-deathscreen
+Found new resource esx-checkdeathcause in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx-checkdeathcause
+Found new resource esx_addons_gcphone in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_addons_gcphone
+Found new resource esx_location in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_location
+Found new resource esx_pharmacy in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_pharmacy
+Found new resource esx_radio in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_radio
+Found new resource esx_scoreboard in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_scoreboard
+Found new resource esx_spectate in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_spectate
+Found new resource esx_synchro in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_synchro
+Found new resource esx_teleportpads in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_teleportpads
+Found new resource esx_teleports in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_teleports
+Found new resource esx_unishow in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_unishow
+Found new resource esx_utils in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_utils
+Found new resource esx_menu_default in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_default
+Found new resource esx_menu_dialog in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_dialog
+Found new resource esx_menu_list in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_list
+Found new resource webpack in D:/v1.0bsrp\server-data/resources//[system]/[builders]/webpack
+Found new resource yarn in D:/v1.0bsrp\server-data/resources//[system]/[builders]/yarn
+Found new resource esx_ballasjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_ballasjob
+Found new resource esx_bikerjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_bikerjob
+Found new resource esx_familliesjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_familliesjob
+Found new resource esx_vagosjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_vagosjob
+Found new resource esx_cartesim in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/[gcphone]/esx_cartesim
+Found new resource gcphone in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/[gcphone]/gcphone
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Creating script environments for webadmin
+Instantiated instance of script FxWebAdmin.BaseServer.
+Instantiated instance of script FxWebAdmin.HttpServer+HttpServerScript.
+Started resource webadmin
+Creating script environments for monitor
+[txAdminClientLUA] Version 2.5.0 starting...
+[txAdminClientJS] Logger started
+Started resource monitor
+Creating script environments for mapmanager
+Started resource mapmanager
+Creating script environments for chat
+Started resource chat
+Started resource spawnmanager
+Stopping resource sessionmanager
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Started gametype Freeroam
+Started resource fivem
+Creating script environments for rconlog
+Started resource rconlog
+Creating script environments for baseevents
+Started resource baseevents
+Creating script environments for mysql-async
+Started resource mysql-async
+Creating script environments for essentialmode
+Instantiated instance of script SQLite.Main.
+Started resource essentialmode
+Creating script environments for async
+Started resource async
+Creating script environments for esplugin_mysql
+Started resource esplugin_mysql
+Creating script environments for es_admin2
+Started resource es_admin2
+Creating script environments for es_extended
+Started resource es_extended
+Creating script environments for cron
+Started resource cron
+Creating script environments for instance
+Started resource instance
+Creating script environments for esx_scoreboard
+Started resource esx_scoreboard
+Creating script environments for replyandreport-esx
+Started resource replyandreport-esx
+Started resource esx_menu_default
+Started resource esx_menu_list
+Started resource esx_menu_dialog
+Started resource NativeUILua_Reloaded
+Started resource NativeUI
+Creating script environments for Arkadia_personalmenu
+Started resource Arkadia_personalmenu
+Started resource bob74_ipl
+Creating script environments for esx_addonaccount
+Started resource esx_addonaccount
+Creating script environments for esx_addoninventory
+Started resource esx_addoninventory
+Creating script environments for esx_datastore
+Started resource esx_datastore
+Creating script environments for esx_society
+Started resource esx_society
+Creating script environments for esx_billing
+Started resource esx_billing
+Creating script environments for connectqueue
+QUEUE:  [connectqueue] Désactivation de hardcap 
+Started resource connectqueue
+Started resource panzar-load
+Creating script environments for reboot
+Started resource reboot
+Creating script environments for vSync
+Started resource vSync
+Started resource pNotify
+Started resource pvp
+Creating script environments for scriptpnj
+Started resource scriptpnj
+Creating script environments for CalmAI
+CalmAI Loaded. AI is now Relaxed! Coded by NickThe0ne
+Started resource CalmAI
+Started resource gd_airport_ai_begone
+Creating script environments for ProtectPnj
+Started resource ProtectPnj
+Creating script environments for vdk_call
+Started resource vdk_call
+Creating script environments for gcphone
+Started resource gcphone
+Creating script environments for esx_addons_gcphone
+Started resource esx_addons_gcphone
+Creating script environments for esx_cartesim
+Started resource esx_cartesim
+Creating script environments for yarn
+Started resource yarn
+Creating script environments for webpack
+Started resource webpack
+Creating script environments for screenshot-basic
+Started resource screenshot-basic
+Started resource knockout
+Started resource pausemenu-title
+Creating script environments for eden_jail
+Started resource eden_jail
+Creating script environments for suptime
+Started resource suptime
+Started resource progressBars
+Creating script environments for 3dme
+Started resource 3dme
+Started resource Radargun
+Started resource vir-deathscreen
+Creating script environments for esx-qalle-jail
+Started resource esx-qalle-jail
+Started resource esx_teleports
+Creating script environments for esx_ktackle
+Started resource esx_ktackle
+Creating script environments for esx_rpchat
+Started resource esx_rpchat
+Creating script environments for esx_license
+Started resource esx_license
+Creating script environments for esx_identity
+Started resource esx_identity
+Started resource skinchanger
+Creating script environments for esx_skin
+Started resource esx_skin
+Creating script environments for esx_accessories
+Started resource esx_accessories
+Started resource VetementHomme
+Creating script environments for Arkadia_tenue_1
+Started resource Arkadia_tenue_1
+Creating script environments for Arkadia_tenue_2
+Started resource Arkadia_tenue_2
+Creating script environments for esx_status
+Started resource esx_status
+Creating script environments for esx_basicneeds
+Started resource esx_basicneeds
+Creating script environments for esx_optionalneeds
+Started resource esx_optionalneeds
+Creating script environments for ft_libs
+Started resource ft_libs
+Creating script environments for esx_celldoors
+Started resource esx_celldoors
+Creating script environments for afkkick
+Started resource afkkick
+Started resource radio
+Creating script environments for esx_entitysync
+Started resource esx_entitysync
+Creating script environments for esx_vehicleshop
+= INFO = Enregistrement du telephone cardealer => Client concession
+Started resource esx_vehicleshop
+Creating script environments for esx_property
+Started resource esx_property
+Creating script environments for esx_weapons
+Started resource esx_weapons
+Creating script environments for esx_weaponscomponents
+Started resource esx_weaponscomponents
+Creating script environments for qalle_policearmory
+Started resource qalle_policearmory
+Creating script environments for esx_utils
+Started resource esx_utils
+Creating script environments for esx_dmvschool
+Started resource esx_dmvschool
+Creating script environments for NativeUI_shops
+Started resource NativeUI_shops
+Creating script environments for esx_bankrobberies
+Started resource esx_bankrobberies
+Creating script environments for esx_lscustom
+Started resource esx_lscustom
+Creating script environments for esx_eden_clotheshop
+Started resource esx_eden_clotheshop
+Creating script environments for NativeUI_barber
+Started resource NativeUI_barber
+Creating script environments for esx_prw_tatooshop
+Started resource esx_prw_tatooshop
+Creating script environments for esx_quincaillerie
+Started resource esx_quincaillerie
+Creating script environments for esx_joblisting
+Started resource esx_joblisting
+Creating script environments for esx_jk_jobs
+Started resource esx_jk_jobs
+Creating script environments for esx_avocatjob
+Started resource esx_avocatjob
+Creating script environments for esx_policejob
+= INFO = Enregistrement du telephone police => Alerte police
+Started resource esx_policejob
+Creating script environments for esx_unicornjob
+= INFO = Enregistrement du telephone unicorn => Citoyen
+Started resource esx_unicornjob
+Creating script environments for esx_bahamajob
+= INFO = Enregistrement du telephone bahama => Citoyen
+Started resource esx_bahamajob
+Creating script environments for esx_realestateagentjob
+= INFO = Enregistrement du telephone realestateagent => Translation [fr][client] does not exist
+Started resource esx_realestateagentjob
+Creating script environments for esx_duty
+Started resource esx_duty
+Couldn't find resource esx_ammunationjob.
+Creating script environments for esx_illegal
+Started resource esx_illegal
+Creating script environments for esx_jobs
+Started resource esx_jobs
+Creating script environments for esx_tabacjob
+Started resource esx_tabacjob
+Creating script environments for esx_ambulancejob
+= INFO = Enregistrement du telephone ambulance => Alerte Ambulance
+Started resource esx_ambulancejob
+Creating script environments for esx_mecanojob
+= INFO = Enregistrement du telephone mecano => Client mecano
+Started resource esx_mecanojob
+Creating script environments for esx_vigneronjob
+= INFO = Enregistrement du telephone vigne => Client vigne
+Started resource esx_vigneronjob
+Creating script environments for esx_taxijob
+= INFO = Enregistrement du telephone taxi => Client Taxi
+Started resource esx_taxijob
+Creating script environments for esx_pompistejob
+= INFO = Enregistrement du telephone pompiste => Client Imprimerie
+Started resource esx_pompistejob
+Creating script environments for esx_drugs
+Started resource esx_drugs
+Creating script environments for MF_DrugSales
+Started resource MF_DrugSales
+Creating script environments for DopePlant
+Started resource DopePlant
+Creating script environments for MF_LockPicking
+Started resource MF_LockPicking
+Creating script environments for MF_SafeCracker
+Started resource MF_SafeCracker
+Started resource mhacking
+Creating script environments for MF_Fleeca
+Started resource MF_Fleeca
+Creating script environments for loffe_heist
+Started resource loffe_heist
+Creating script environments for loffe_robbery
+Started resource loffe_robbery
+Started resource esx_carshowroom
+Creating script environments for esx_eden_garage
+Started resource esx_eden_garage
+Creating script environments for esx_trunk
+Started resource esx_trunk
+Creating script environments for esx_location
+Started resource esx_location
+Creating script environments for esx_RealisticVehicleFailure
+Started resource esx_RealisticVehicleFailure
+Creating script environments for esx_legacyfuel
+Started resource esx_legacyfuel
+Started resource esx-kr-vehicle-push
+Creating script environments for InteractSoundS
+Started resource InteractSoundS
+Started resource seatbelt
+Started resource speedometer
+Started resource RealisticAirControl
+Creating script environments for esx_vehiclelock
+Started resource esx_vehiclelock
+Started resource Car_Doors
+Creating script environments for lux_vehcontrol
+Started resource lux_vehcontrol
+Creating script environments for ESX_GiveCarKeys-1.1
+Started resource ESX_GiveCarKeys-1.1
+Started resource lspdloader
+Started resource prison-map-addon
+Started resource SLBK11_MissionRow
+Started resource nw_bahamaMama
+Started resource coloredhud
+Started resource nw_mine
+Started resource mapbuilder
+Started resource streammap
+Started resource Arkadia_unicorn
+Started resource mappings
+Started resource Arkadia_medical
+Started resource lsms
+Started resource modular_carlift
+Creating script environments for new_banking
+Started resource new_banking
+Creating script environments for jsfour-idcard
+Started resource jsfour-idcard
+Started resource police_radio
+Started resource gang_action
+Started resource esx-checkdeathcause
+Started resource DamageWalkMode
+Creating script environments for esx_customui
+Started resource esx_customui
+Creating script environments for CarryPeople
+Started resource CarryPeople
+Creating script environments for Radiant_Animations
+Started resource Radiant_Animations
+Started resource radialmenu
+Creating script environments for esx_announce
+Started resource esx_announce
+Creating script environments for esx_spectate
+Started resource esx_spectate
+Creating script environments for FiveM-BanSql-1.0.8
+Started resource FiveM-BanSql-1.0.8
+Creating script environments for ServerPassword
+Started resource ServerPassword
+Started resource Captain14_FBI
+Started resource taxi
+Started resource DodgeEMS
+Started resource ammunationVehicles
+Creating script environments for esx_discord_bot
+Started resource esx_discord_bot
+Creating script environments for DiscordBot
+
+
+ERROR
+DiscordBot: Please add your "Start" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "System Infos" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Cheat" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Killing Log" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Chat" webhook
+
+
+Started resource DiscordBot
+Started resource DiscordRichPresence
+Could not open logo.png for reading.
+Argument count mismatch (passed 2, wanted 3)
+Stopping resource sessionmanager
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Argument count mismatch (passed 4, wanted 2)
+Authenticating server license key...
+GlobalError: An error occurred while checking server license key: HTTP 500 - <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>                body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+                .container { margin: 30px; max-width: 600px; }
+                h1 { color: #dc3545; font-size: 24px; }</style>
+    </head>
+    <body>
+                        <div class="container">
+                    <h1>Whoops, looks like something went wrong.</h1>
+                </div>
+    </body>
+</html>
+
+================================================================
+======== FXServer starting - 04/06/2020 à 18:06:31
+================================================================
+Creating script environments for _cfx_internal
+Found new resource Arkadia_Map in D:/v1.0bsrp\server-data/resources//Arkadia_Map
+Found new resource Arkadia_Map_ in D:/v1.0bsrp\server-data/resources//Arkadia_Map_
+Found new resource connectqueue in D:/v1.0bsrp\server-data/resources//connectqueue
+Found new resource esx_douane in D:/v1.0bsrp\server-data/resources//esx_douane
+Found new resource fivem in D:/v1.0bsrp\server-data/resources//fivem
+Found new resource fivem-awesome1501 in D:/v1.0bsrp\server-data/resources//fivem-awesome1501
+Found new resource halloween in D:/v1.0bsrp\server-data/resources//halloween
+Found new resource position in D:/v1.0bsrp\server-data/resources//position
+Found new resource reboot in D:/v1.0bsrp\server-data/resources//reboot
+Found new resource runcode in D:/v1.0bsrp\server-data/resources//runcode
+Found new resource ServerPassword in D:/v1.0bsrp\server-data/resources//ServerPassword
+Found new resource WeatherSnow in D:/v1.0bsrp\server-data/resources//WeatherSnow
+Found new resource monitor in D:\v1.0bsrp\server\citizen/system_resources//monitor
+Found new resource webadmin in D:\v1.0bsrp\server\citizen/system_resources//webadmin
+Found new resource FiveM-BanSql-1.0.8 in D:/v1.0bsrp\server-data/resources//[admin]/FiveM-BanSql-1.0.8
+Found new resource essentialmode in D:/v1.0bsrp\server-data/resources//[essential]/essentialmode
+Found new resource es_admin2 in D:/v1.0bsrp\server-data/resources//[essential]/es_admin2
+Found new resource es_extended in D:/v1.0bsrp\server-data/resources//[essential]/es_extended
+Found new resource pvp in D:/v1.0bsrp\server-data/resources//[essential]/pvp
+Found new resource replyandreport-esx in D:/v1.0bsrp\server-data/resources//[essential]/replyandreport-esx
+Found new resource race in D:/v1.0bsrp\server-data/resources//[gamemodes]/race
+Found new resource race-test in D:/v1.0bsrp\server-data/resources//[gamemodes]/race-test
+Found new resource channelfeed in D:/v1.0bsrp\server-data/resources//[gameplay]/channelfeed
+Found new resource irc in D:/v1.0bsrp\server-data/resources//[gameplay]/irc
+Found new resource obituary in D:/v1.0bsrp\server-data/resources//[gameplay]/obituary
+Found new resource obituary-deaths in D:/v1.0bsrp\server-data/resources//[gameplay]/obituary-deaths
+Found new resource playernames in D:/v1.0bsrp\server-data/resources//[gameplay]/playernames
+Found new resource dix-micro in D:/v1.0bsrp\server-data/resources//[hud]/dix-micro
+Found new resource esx_customui in D:/v1.0bsrp\server-data/resources//[hud]/esx_customui
+Found new resource hungerthirst in D:/v1.0bsrp\server-data/resources//[hud]/hungerthirst
+Found new resource panzar-load in D:/v1.0bsrp\server-data/resources//[hud]/panzar-load
+Found new resource speedometer in D:/v1.0bsrp\server-data/resources//[hud]/speedometer
+Found new resource async in D:/v1.0bsrp\server-data/resources//[libs]/async
+Found new resource esplugin_mysql in D:/v1.0bsrp\server-data/resources//[libs]/esplugin_mysql
+Found new resource mysql-async in D:/v1.0bsrp\server-data/resources//[libs]/mysql-async
+Found new resource screenshot-basic in D:/v1.0bsrp\server-data/resources//[local]/screenshot-basic
+Found new resource mapmanager in D:/v1.0bsrp\server-data/resources//[managers]/mapmanager
+Found new resource allcity_medical in D:/v1.0bsrp\server-data/resources//[mapping]/allcity_medical
+Found new resource Arkadia_gang in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_gang
+Found new resource Arkadia_medical in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_medical
+Found new resource Arkadia_sinaloa in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_sinaloa
+Found new resource Arkadia_unicorn in D:/v1.0bsrp\server-data/resources//[mapping]/Arkadia_unicorn
+Found new resource coloredhud in D:/v1.0bsrp\server-data/resources//[mapping]/coloredhud
+Found new resource groovehus in D:/v1.0bsrp\server-data/resources//[mapping]/groovehus
+Found new resource lsms in D:/v1.0bsrp\server-data/resources//[mapping]/lsms
+Found new resource lspdloader in D:/v1.0bsrp\server-data/resources//[mapping]/lspdloader
+Found new resource mapbuilder in D:/v1.0bsrp\server-data/resources//[mapping]/mapbuilder
+Found new resource mappings in D:/v1.0bsrp\server-data/resources//[mapping]/mappings
+Found new resource modular_carlift in D:/v1.0bsrp\server-data/resources//[mapping]/modular_carlift
+Found new resource nw_bahamaMama in D:/v1.0bsrp\server-data/resources//[mapping]/nw_bahamaMama
+Found new resource nw_mine in D:/v1.0bsrp\server-data/resources//[mapping]/nw_mine
+Found new resource opendoor_madrazo in D:/v1.0bsrp\server-data/resources//[mapping]/opendoor_madrazo
+Found new resource prison-map-addon in D:/v1.0bsrp\server-data/resources//[mapping]/prison-map-addon
+Found new resource SLBK11_MissionRow in D:/v1.0bsrp\server-data/resources//[mapping]/SLBK11_MissionRow
+Found new resource streammap in D:/v1.0bsrp\server-data/resources//[mapping]/streammap
+Found new resource Arkadia_tenue_1 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_1
+Found new resource Arkadia_tenue_2 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_2
+Found new resource Arkadia_tenue_3 in D:/v1.0bsrp\server-data/resources//[skin]/Arkadia_tenue_3
+Found new resource VetementHomme in D:/v1.0bsrp\server-data/resources//[skin]/VetementHomme
+Found new resource afkkick in D:/v1.0bsrp\server-data/resources//[system]/afkkick
+Found new resource baseevents in D:/v1.0bsrp\server-data/resources//[system]/baseevents
+Found new resource chat in D:/v1.0bsrp\server-data/resources//[system]/chat
+Found new resource chat-theme-civlifechat in D:/v1.0bsrp\server-data/resources//[system]/chat-theme-civlifechat
+Found new resource chat-theme-gtao in D:/v1.0bsrp\server-data/resources//[system]/chat-theme-gtao
+Found new resource chat1 in D:/v1.0bsrp\server-data/resources//[system]/chat1
+Found new resource hardcap in D:/v1.0bsrp\server-data/resources//[system]/hardcap
+Found new resource pingkick in D:/v1.0bsrp\server-data/resources//[system]/pingkick
+Found new resource rconlog in D:/v1.0bsrp\server-data/resources//[system]/rconlog
+Found new resource scoreboard in D:/v1.0bsrp\server-data/resources//[system]/scoreboard
+Found new resource sessionmanager in D:/v1.0bsrp\server-data/resources//[system]/sessionmanager
+Found new resource spawnmanager in D:/v1.0bsrp\server-data/resources//[system]/spawnmanager
+Found new resource betaguns in D:/v1.0bsrp\server-data/resources//[test]/betaguns
+Found new resource cron in D:/v1.0bsrp\server-data/resources//[test]/cron
+Found new resource gameInit in D:/v1.0bsrp\server-data/resources//[test]/gameInit
+Found new resource keks in D:/v1.0bsrp\server-data/resources//[test]/keks
+Found new resource ammunationVehicles in D:/v1.0bsrp\server-data/resources//[Voitures]/ammunationVehicles
+Found new resource Captain14_FBI in D:/v1.0bsrp\server-data/resources//[Voitures]/Captain14_FBI
+Found new resource Captain14_LSPD in D:/v1.0bsrp\server-data/resources//[Voitures]/Captain14_LSPD
+Found new resource DodgeEMS in D:/v1.0bsrp\server-data/resources//[Voitures]/DodgeEMS
+Found new resource taxi in D:/v1.0bsrp\server-data/resources//[Voitures]/taxi
+Found new resource esx-qalle-jail in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx-qalle-jail
+Found new resource esx_accessories in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_accessories
+Found new resource esx_announce in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_announce
+Found new resource esx_celldoors in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_celldoors
+Found new resource esx_dmvschool in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_dmvschool
+Found new resource esx_eden_clotheshop in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_eden_clotheshop
+Found new resource esx_entitysync in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_entitysync
+Found new resource esx_headbag in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_headbag
+Found new resource esx_ktackle in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_ktackle
+Found new resource esx_lscustom in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_lscustom
+Found new resource esx_mask in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_mask
+Found new resource esx_prw_tatooshop in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_prw_tatooshop
+Found new resource esx_quincaillerie in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_quincaillerie
+Found new resource esx_rpchat in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_rpchat
+Found new resource esx_tattoosShops in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_tattoosShops
+Found new resource esx_weapons in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weapons
+Found new resource esx_weaponscomponents in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weaponscomponents
+Found new resource esx_weashopsplus in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/esx_weashopsplus
+Found new resource NativeUI_barber in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/NativeUI_barber
+Found new resource NativeUI_shops in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/NativeUI_shops
+Found new resource skinchanger in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/skinchanger
+Found new resource vSync in D:/v1.0bsrp\server-data/resources//[esx]/[ajouts]/vSync
+Found new resource esx_addonaccount in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addonaccount
+Found new resource esx_addoninventory in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addoninventory
+Found new resource esx_addonneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_addonneeds
+Found new resource esx_barbershop in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_barbershop
+Found new resource esx_basicneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_basicneeds
+Found new resource esx_billing in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_billing
+Found new resource esx_datastore in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_datastore
+Found new resource esx_identity in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_identity
+Found new resource esx_license in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_license
+Found new resource esx_optionalneeds in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_optionalneeds
+Found new resource esx_property in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_property
+Found new resource esx_skin in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_skin
+Found new resource esx_society in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_society
+Found new resource esx_status in D:/v1.0bsrp\server-data/resources//[esx]/[base]/esx_status
+Found new resource instance in D:/v1.0bsrp\server-data/resources//[esx]/[base]/instance
+Found new resource esx-kr-vehicle-push in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx-kr-vehicle-push
+Found new resource esx_carshowroom in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_carshowroom
+Found new resource esx_eden_aircraftgarage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_aircraftgarage
+Found new resource esx_eden_boatgarage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_boatgarage
+Found new resource esx_eden_garage in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_eden_garage
+Found new resource ESX_GiveCarKeys-1.1 in D:/v1.0bsrp\server-data/resources//[esx]/[car]/ESX_GiveCarKeys-1.1
+Found new resource esx_legacyfuel in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_legacyfuel
+Found new resource esx_RealisticVehicleFailure in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_RealisticVehicleFailure
+Found new resource esx_trunk in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_trunk
+Found new resource esx_vehiclelock in D:/v1.0bsrp\server-data/resources//[esx]/[car]/esx_vehiclelock
+Found new resource es_carwash in D:/v1.0bsrp\server-data/resources//[esx]/[car]/es_carwash
+Found new resource RealisticAirControl in D:/v1.0bsrp\server-data/resources//[esx]/[car]/RealisticAirControl
+Found new resource RealisticTraffic in D:/v1.0bsrp\server-data/resources//[esx]/[car]/RealisticTraffic
+Found new resource DiscordBot in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/DiscordBot
+Found new resource DiscordRichPresence in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/DiscordRichPresence
+Found new resource esx_discord_bot in D:/v1.0bsrp\server-data/resources//[esx]/[discord]/esx_discord_bot
+Found new resource DopePlant in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/DopePlant
+Found new resource esx_bankrobberies in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_bankrobberies
+Found new resource esx_drill in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drill
+Found new resource esx_drugeffects in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drugeffects
+Found new resource esx_drugs in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_drugs
+Found new resource esx_policemdt in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/esx_policemdt
+Found new resource loffe_heist in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/loffe_heist
+Found new resource loffe_robbery in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/loffe_robbery
+Found new resource MF_DnaTracker in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_DnaTracker
+Found new resource MF_DrugSales in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_DrugSales
+Found new resource MF_Fleeca in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_Fleeca
+Found new resource MF_LockPicking in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_LockPicking
+Found new resource MF_PacificStandard in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_PacificStandard
+Found new resource MF_SafeCracker in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/MF_SafeCracker
+Found new resource mhacking in D:/v1.0bsrp\server-data/resources//[esx]/[illegal]/mhacking
+Found new resource esx_ambulancejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_ambulancejob
+Found new resource esx_avocatjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_avocatjob
+Found new resource esx_bahamajob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_bahamajob
+Found new resource esx_bankerjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_bankerjob
+Found new resource esx_duty in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_duty
+Found new resource esx_illegal in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_illegal
+Found new resource esx_jk_jobs in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_jk_jobs
+Found new resource esx_joblisting in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_joblisting
+Found new resource esx_jobs in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_jobs
+Found new resource esx_journaliste in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_journaliste
+Found new resource esx_mecanojob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_mecanojob
+Found new resource esx_policejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_policejob
+Found new resource esx_pompistejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_pompistejob
+Found new resource esx_realestateagentjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_realestateagentjob
+Found new resource esx_securoservjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_securoservjob
+Found new resource esx_statejob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_statejob
+Found new resource esx_tabacjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_tabacjob
+Found new resource esx_taxijob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_taxijob
+Found new resource esx_unicornjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_unicornjob
+Found new resource esx_vehicleshop in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_vehicleshop
+Found new resource esx_vigneronjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/esx_vigneronjob
+Found new resource WeazelNewsCam in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/WeazelNewsCam
+Found new resource 3dme in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/3dme
+Found new resource Arkadia_personalmenu in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Arkadia_personalmenu
+Found new resource bob74_ipl in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/bob74_ipl
+Found new resource CalmAI in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/CalmAI
+Found new resource CarryPeople in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/CarryPeople
+Found new resource Car_Doors in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Car_Doors
+Found new resource DamageWalkMode in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/DamageWalkMode
+Found new resource deletearmevehicule in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/deletearmevehicule
+Found new resource disabledispatch in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/disabledispatch
+Found new resource eden_jail in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/eden_jail
+Found new resource elf_weaponfromcar in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/elf_weaponfromcar
+Found new resource ft_libs in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/ft_libs
+Found new resource gang_action in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/gang_action
+Found new resource gd_airport_ai_begone in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/gd_airport_ai_begone
+Found new resource guy293_voice in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/guy293_voice
+Found new resource InteractSoundS in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/InteractSoundS
+Found new resource iplLoader in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/iplLoader
+Found new resource JoinTransition in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/JoinTransition
+Found new resource jsfour-idcard in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/jsfour-idcard
+Found new resource knockout in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/knockout
+Found new resource kors in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/kors
+Found new resource kuana_bateria in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/kuana_bateria
+Found new resource lux_vehcontrol in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/lux_vehcontrol
+Found new resource NativeUI in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NativeUI
+Found new resource NativeUILua_Reloaded in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NativeUILua_Reloaded
+Found new resource new_banking in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/new_banking
+Found new resource nodroppnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/nodroppnj
+Found new resource NoReticle in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/NoReticle
+Found new resource novehicleweapon in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/novehicleweapon
+Found new resource npcs in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/npcs
+Found new resource pausemenu-title in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/pausemenu-title
+Found new resource PiggyBack in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/PiggyBack
+Found new resource pNotify in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/pNotify
+Found new resource police_radio in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/police_radio
+Found new resource progressBars in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/progressBars
+Found new resource ProtectPnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/ProtectPnj
+Found new resource qalle_policearmory in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/qalle_policearmory
+Found new resource Radargun in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Radargun
+Found new resource radialmenu in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/radialmenu
+Found new resource Radiant_Animations in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/Radiant_Animations
+Found new resource radio in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/radio
+Found new resource removeAIcops in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/removeAIcops
+Found new resource scriptpnj in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/scriptpnj
+Found new resource seatbelt in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/seatbelt
+Found new resource suptime in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/suptime
+Found new resource vdk_call in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/vdk_call
+Found new resource vir-deathscreen in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/vir-deathscreen
+Found new resource esx-checkdeathcause in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx-checkdeathcause
+Found new resource esx_addons_gcphone in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_addons_gcphone
+Found new resource esx_location in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_location
+Found new resource esx_pharmacy in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_pharmacy
+Found new resource esx_radio in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_radio
+Found new resource esx_scoreboard in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_scoreboard
+Found new resource esx_spectate in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_spectate
+Found new resource esx_synchro in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_synchro
+Found new resource esx_teleportpads in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_teleportpads
+Found new resource esx_teleports in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_teleports
+Found new resource esx_unishow in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_unishow
+Found new resource esx_utils in D:/v1.0bsrp\server-data/resources//[esx]/[others]/esx_utils
+Found new resource esx_menu_default in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_default
+Found new resource esx_menu_dialog in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_dialog
+Found new resource esx_menu_list in D:/v1.0bsrp\server-data/resources//[esx]/[ui]/esx_menu_list
+Found new resource webpack in D:/v1.0bsrp\server-data/resources//[system]/[builders]/webpack
+Found new resource yarn in D:/v1.0bsrp\server-data/resources//[system]/[builders]/yarn
+Found new resource esx_ballasjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_ballasjob
+Found new resource esx_bikerjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_bikerjob
+Found new resource esx_familliesjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_familliesjob
+Found new resource esx_vagosjob in D:/v1.0bsrp\server-data/resources//[esx]/[jobs]/[GANGS]/esx_vagosjob
+Found new resource esx_cartesim in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/[gcphone]/esx_cartesim
+Found new resource gcphone in D:/v1.0bsrp\server-data/resources//[esx]/[non-esx]/[gcphone]/gcphone
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Creating script environments for webadmin
+Instantiated instance of script FxWebAdmin.BaseServer.
+Instantiated instance of script FxWebAdmin.HttpServer+HttpServerScript.
+Started resource webadmin
+Creating script environments for monitor
+[txAdminClientLUA] Version 2.5.0 starting...
+[txAdminClientJS] Logger started
+Started resource monitor
+Creating script environments for mapmanager
+Started resource mapmanager
+Creating script environments for chat
+Started resource chat
+Started resource spawnmanager
+Stopping resource sessionmanager
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Started gametype Freeroam
+Started resource fivem
+Creating script environments for rconlog
+Started resource rconlog
+Creating script environments for baseevents
+Started resource baseevents
+Creating script environments for mysql-async
+Started resource mysql-async
+Creating script environments for essentialmode
+Instantiated instance of script SQLite.Main.
+Started resource essentialmode
+Creating script environments for async
+Started resource async
+Creating script environments for esplugin_mysql
+Started resource esplugin_mysql
+Creating script environments for es_admin2
+Started resource es_admin2
+Creating script environments for es_extended
+Started resource es_extended
+Creating script environments for cron
+Started resource cron
+Creating script environments for instance
+Started resource instance
+Creating script environments for esx_scoreboard
+Started resource esx_scoreboard
+Creating script environments for replyandreport-esx
+Started resource replyandreport-esx
+Started resource esx_menu_default
+Started resource esx_menu_list
+Started resource esx_menu_dialog
+Started resource NativeUILua_Reloaded
+Started resource NativeUI
+Creating script environments for Arkadia_personalmenu
+Started resource Arkadia_personalmenu
+Started resource bob74_ipl
+Creating script environments for esx_addonaccount
+Started resource esx_addonaccount
+Creating script environments for esx_addoninventory
+Started resource esx_addoninventory
+Creating script environments for esx_datastore
+Started resource esx_datastore
+Creating script environments for esx_society
+Started resource esx_society
+Creating script environments for esx_billing
+Started resource esx_billing
+Creating script environments for connectqueue
+QUEUE:  [connectqueue] Désactivation de hardcap 
+Started resource connectqueue
+Started resource panzar-load
+Creating script environments for reboot
+Started resource reboot
+Creating script environments for vSync
+Started resource vSync
+Started resource pNotify
+Started resource pvp
+Creating script environments for scriptpnj
+Started resource scriptpnj
+Creating script environments for CalmAI
+CalmAI Loaded. AI is now Relaxed! Coded by NickThe0ne
+Started resource CalmAI
+Started resource gd_airport_ai_begone
+Creating script environments for ProtectPnj
+Started resource ProtectPnj
+Creating script environments for vdk_call
+Started resource vdk_call
+Creating script environments for gcphone
+Started resource gcphone
+Creating script environments for esx_addons_gcphone
+Started resource esx_addons_gcphone
+Creating script environments for esx_cartesim
+Started resource esx_cartesim
+Creating script environments for yarn
+Started resource yarn
+Creating script environments for webpack
+Started resource webpack
+Creating script environments for screenshot-basic
+Started resource screenshot-basic
+Started resource knockout
+Started resource pausemenu-title
+Creating script environments for eden_jail
+Started resource eden_jail
+Creating script environments for suptime
+Started resource suptime
+Started resource progressBars
+Creating script environments for 3dme
+Started resource 3dme
+Started resource Radargun
+Started resource vir-deathscreen
+Creating script environments for esx-qalle-jail
+Started resource esx-qalle-jail
+Started resource esx_teleports
+Creating script environments for esx_ktackle
+Started resource esx_ktackle
+Creating script environments for esx_rpchat
+Started resource esx_rpchat
+Creating script environments for esx_license
+Started resource esx_license
+Creating script environments for esx_identity
+Started resource esx_identity
+Started resource skinchanger
+Creating script environments for esx_skin
+Started resource esx_skin
+Creating script environments for esx_accessories
+Started resource esx_accessories
+Started resource VetementHomme
+Creating script environments for Arkadia_tenue_1
+Started resource Arkadia_tenue_1
+Creating script environments for Arkadia_tenue_2
+Started resource Arkadia_tenue_2
+Creating script environments for esx_status
+Started resource esx_status
+Creating script environments for esx_basicneeds
+Started resource esx_basicneeds
+Creating script environments for esx_optionalneeds
+Started resource esx_optionalneeds
+Creating script environments for ft_libs
+Started resource ft_libs
+Creating script environments for esx_celldoors
+Started resource esx_celldoors
+Creating script environments for afkkick
+Started resource afkkick
+Started resource radio
+Creating script environments for esx_entitysync
+Started resource esx_entitysync
+Creating script environments for esx_vehicleshop
+= INFO = Enregistrement du telephone cardealer => Client concession
+Started resource esx_vehicleshop
+Creating script environments for esx_property
+Started resource esx_property
+Creating script environments for esx_weapons
+Started resource esx_weapons
+Creating script environments for esx_weaponscomponents
+Started resource esx_weaponscomponents
+Creating script environments for qalle_policearmory
+Started resource qalle_policearmory
+Creating script environments for esx_utils
+Started resource esx_utils
+Creating script environments for esx_dmvschool
+Started resource esx_dmvschool
+Creating script environments for NativeUI_shops
+Started resource NativeUI_shops
+Creating script environments for esx_bankrobberies
+Started resource esx_bankrobberies
+Creating script environments for esx_lscustom
+Started resource esx_lscustom
+Creating script environments for esx_eden_clotheshop
+Started resource esx_eden_clotheshop
+Creating script environments for NativeUI_barber
+Started resource NativeUI_barber
+Creating script environments for esx_prw_tatooshop
+Started resource esx_prw_tatooshop
+Creating script environments for esx_quincaillerie
+Started resource esx_quincaillerie
+Creating script environments for esx_joblisting
+Started resource esx_joblisting
+Creating script environments for esx_jk_jobs
+Started resource esx_jk_jobs
+Creating script environments for esx_avocatjob
+Started resource esx_avocatjob
+Creating script environments for esx_policejob
+= INFO = Enregistrement du telephone police => Alerte police
+Started resource esx_policejob
+Creating script environments for esx_unicornjob
+= INFO = Enregistrement du telephone unicorn => Citoyen
+Started resource esx_unicornjob
+Creating script environments for esx_bahamajob
+= INFO = Enregistrement du telephone bahama => Citoyen
+Started resource esx_bahamajob
+Creating script environments for esx_realestateagentjob
+= INFO = Enregistrement du telephone realestateagent => Translation [fr][client] does not exist
+Started resource esx_realestateagentjob
+Creating script environments for esx_duty
+Started resource esx_duty
+Couldn't find resource esx_ammunationjob.
+Creating script environments for esx_illegal
+Started resource esx_illegal
+Creating script environments for esx_jobs
+Started resource esx_jobs
+Creating script environments for esx_tabacjob
+Started resource esx_tabacjob
+Creating script environments for esx_ambulancejob
+= INFO = Enregistrement du telephone ambulance => Alerte Ambulance
+Started resource esx_ambulancejob
+Creating script environments for esx_mecanojob
+= INFO = Enregistrement du telephone mecano => Client mecano
+Started resource esx_mecanojob
+Creating script environments for esx_vigneronjob
+= INFO = Enregistrement du telephone vigne => Client vigne
+Started resource esx_vigneronjob
+Creating script environments for esx_taxijob
+= INFO = Enregistrement du telephone taxi => Client Taxi
+Started resource esx_taxijob
+Creating script environments for esx_pompistejob
+= INFO = Enregistrement du telephone pompiste => Client Imprimerie
+Started resource esx_pompistejob
+Creating script environments for esx_drugs
+Started resource esx_drugs
+Creating script environments for MF_DrugSales
+Started resource MF_DrugSales
+Creating script environments for DopePlant
+Started resource DopePlant
+Creating script environments for MF_LockPicking
+Started resource MF_LockPicking
+Creating script environments for MF_SafeCracker
+Started resource MF_SafeCracker
+Started resource mhacking
+Creating script environments for MF_Fleeca
+Started resource MF_Fleeca
+Creating script environments for loffe_heist
+Started resource loffe_heist
+Creating script environments for loffe_robbery
+Started resource loffe_robbery
+Started resource esx_carshowroom
+Creating script environments for esx_eden_garage
+Started resource esx_eden_garage
+Creating script environments for esx_trunk
+Started resource esx_trunk
+Creating script environments for esx_location
+Started resource esx_location
+Creating script environments for esx_RealisticVehicleFailure
+Started resource esx_RealisticVehicleFailure
+Creating script environments for esx_legacyfuel
+Started resource esx_legacyfuel
+Started resource esx-kr-vehicle-push
+Creating script environments for InteractSoundS
+Started resource InteractSoundS
+Started resource seatbelt
+Started resource speedometer
+Started resource RealisticAirControl
+Creating script environments for esx_vehiclelock
+Started resource esx_vehiclelock
+Started resource Car_Doors
+Creating script environments for lux_vehcontrol
+Started resource lux_vehcontrol
+Creating script environments for ESX_GiveCarKeys-1.1
+Started resource ESX_GiveCarKeys-1.1
+Started resource lspdloader
+Started resource prison-map-addon
+Started resource SLBK11_MissionRow
+Started resource nw_bahamaMama
+Started resource coloredhud
+Started resource nw_mine
+Started resource mapbuilder
+Started resource streammap
+Started resource Arkadia_unicorn
+Started resource mappings
+Started resource Arkadia_medical
+Started resource lsms
+Started resource modular_carlift
+Creating script environments for new_banking
+Started resource new_banking
+Creating script environments for jsfour-idcard
+Started resource jsfour-idcard
+Started resource police_radio
+Started resource gang_action
+Started resource esx-checkdeathcause
+Started resource DamageWalkMode
+Creating script environments for esx_customui
+Started resource esx_customui
+Creating script environments for CarryPeople
+Started resource CarryPeople
+Creating script environments for Radiant_Animations
+Started resource Radiant_Animations
+Started resource radialmenu
+Creating script environments for esx_announce
+Started resource esx_announce
+Creating script environments for esx_spectate
+Started resource esx_spectate
+Creating script environments for FiveM-BanSql-1.0.8
+Started resource FiveM-BanSql-1.0.8
+Creating script environments for ServerPassword
+Started resource ServerPassword
+Started resource Captain14_FBI
+Started resource taxi
+Started resource DodgeEMS
+Started resource ammunationVehicles
+Creating script environments for esx_discord_bot
+Started resource esx_discord_bot
+Creating script environments for DiscordBot
+
+
+ERROR
+DiscordBot: Please add your "Start" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "System Infos" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Cheat" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Killing Log" webhook
+
+
+
+
+ERROR
+DiscordBot: Please add your "Chat" webhook
+
+
+Started resource DiscordBot
+Started resource DiscordRichPresence
+Could not open logo.png for reading.
+Argument count mismatch (passed 2, wanted 3)
+Stopping resource sessionmanager
+Creating script environments for sessionmanager
+Started resource sessionmanager
+Argument count mismatch (passed 4, wanted 2)
+Authenticating server license key...
+Server license key authentication succeeded. Welcome!
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[txAdminClientLUA] Threads and commands set up. All Ready.
+Started map Arkadia_Map_
+Started resource Arkadia_Map_
+Authenticating with Nucleus...
+server thread hitch warning: timer interval of 2210 milliseconds
+
+
+##############
+## DiscordBot
+##
+## Current Version: 1.5.2
+## Newest Version: 1.5.2
+##############
+
+
+
+
+##############
+## Server Developped & Edited by ikNox#6088
+##############
+
+
+[mysql-async] Database server connection established.
+        fff                          
+  cccc ff   xx  xx     rr rr    eee  
+cc     ffff   xx       rrr  r ee   e 
+cc     ff     xx   ... rr     eeeee  
+ ccccc ff   xx  xx ... rr      eeeee 
+                                     
+Authenticated with cfx.re Nucleus: https://cloud47-vjpvgr.users.cfx.re/
+La BanList a ete charger avec succes.
+La BanListHistory a ete charger avec succes.
+QUEUE: Dan Smith[steam:11000010c2709d9] a été placé 1/1 dans la queue
+QUEUE: Dan Smith[steam:11000010c2709d9] se connecte au serveur
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+bad guy
+INFO: User [1] Dan Smith authenticated - [1] [1] Dan Smith@127.0.0.1:62908:62908
+Successfully Set Identity For steam:11000010c2709d9
+[SAUVEGARDE] Dan Smith
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+QUEUE: Dan Smith[steam:11000010c2709d9] a été placé 1/1 dans la queue
+QUEUE: Dan Smith[steam:11000010c2709d9] se connecte au serveur
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+bad guy
+Successfully Loaded Identity For Test Test
+INFO: User [2] Dan Smith authenticated - [1] [2] Dan Smith@127.0.0.1:63059:63059
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress
+[SAUVEGARDE] Dan Smith
+Sending heartbeat to https://servers-ingress-live.fivem.net/ingress

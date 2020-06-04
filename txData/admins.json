@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cloud47",
+    "master": true,
+    "password_hash": "$2a$11$.ECU7v0mSshA45yHHQwWguhW48eV/x1ur2c4E5HHAyQMvnRPYmWRG",
+    "providers": {
+      "citizenfx": {
+        "id": "Cloud47",
+        "data": {
+          "nameid": "https://forum.cfx.re/internal/user/903720",
+          "name": "Cloud47",
+          "profile": "https://forum.cfx.re/u/Cloud47",
+          "picture": "https://avatars.discourse.org/v4/letter/c/e95f7d/256.png",
+          "sub": "a94bdecfc1bbc1708dc6774d9180d6dd2316f94e7d1a00e2c7dca36836336574"
+        }
+      }
+    },
+    "permissions": []
+  }
+]
