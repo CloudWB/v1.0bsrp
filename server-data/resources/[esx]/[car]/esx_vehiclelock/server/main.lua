@@ -359,7 +359,7 @@ MySQL.Async.execute(
 
 		},
 		function(result)
-				TriggerClientEvent('esx:showNotification', xPlayer.source, 'Vous avez une nouvelle paire de clés ! ')
+				TriggerClientEvent('esx:showNotification', xPlayer.source, 'Vous avez un nouvelle pair de clés ! ')
 				TriggerClientEvent('esx:showNotification', _source, 'Clés bien enregistrer ! ')
 		end)
 
@@ -407,47 +407,21 @@ end)
 --
 ---- changement de propriétaire
 RegisterServerEvent('esx_vehiclelock:changeowner')
-AddEventHandler('esx_vehiclelock:changeowner', function(target, plate)
+AddEventHandler('esx_vehiclelock:changeowner', function(target, vehicleProps)
 local _source = source
 local xPlayer = nil
-local toplate = plate
 xPlayertarget = ESX.GetPlayerFromId(target)
 xPlayer = ESX.GetPlayerFromId(_source)
 
 MySQL.Async.fetchAll(
-		'INSERT INTO owned_vehicles (owner, plate) VALUES (@owner, @plate)',
+		'INSERT INTO owned_vehicles (owner, vehicle) VALUES (@owner, @vehicle)',
 		{
-		['@owner']   = xPlayertarget.identifier,
-		['@plate'] = toplate
+		['@owner']   = xPlayer.identifier,
+		['@vehicle'] = json.encode(vehicleProps)
 		},
 		function(result)
 			print("insert into terminé")
 	end)
-end)
-
------- Donné clé
-RegisterServerEvent('esx_vehiclelock:donnerkey')
-AddEventHandler('esx_vehiclelock:donnerkey', function(target, plate)
-local _source = source
-local xPlayer = nil
-local toplate = plate
-xPlayertarget = ESX.GetPlayerFromId(target)
-xPlayer = ESX.GetPlayerFromId(_source)
-
-MySQL.Async.execute(
-		'INSERT INTO open_car (label, value, NB, got, identifier) VALUES (@label, @value, @NB, @got, @identifier)',
-		{
-			['@label']		  = 'Cles',
-			['@value']  	  = toplate,
-			['@NB']   		  = 1,
-			['@got']  		  = 'true',
-			['@identifier']   = xPlayertarget.identifier
-
-		},
-		function(result)
-				TriggerClientEvent('esx:showNotification', xPlayertarget.source, 'Vous avez reçu de nouvelle clé ')
-				TriggerClientEvent('esx:showNotification', xPlayer.source, 'Vous avez donné votre clé, vous ne les avez plus !')
-		end)
 end)
 
 --- suppression des clés NB = 1
@@ -478,6 +452,31 @@ MySQL.Async.fetchAll(
 	end)
 end)
 
+------ Donné clé
+RegisterServerEvent('esx_vehiclelock:donnerkey')
+AddEventHandler('esx_vehiclelock:donnerkey', function(target, plate)
+local _source = source
+local xPlayer = nil
+local toplate = plate
+xPlayertarget = ESX.GetPlayerFromId(target)
+xPlayer = ESX.GetPlayerFromId(_source)
+
+MySQL.Async.execute(
+		'INSERT INTO open_car (label, value, NB, got, identifier) VALUES (@label, @value, @NB, @got, @identifier)',
+		{
+			['@label']		  = 'Cles',
+			['@value']  	  = toplate,
+			['@NB']   		  = 1,
+			['@got']  		  = 'true',
+			['@identifier']   = xPlayertarget.identifier
+
+		},
+		function(result)
+				TriggerClientEvent('esx:showNotification', xPlayertarget.source, 'Vous avez reçu de nouvelle clé ')
+				TriggerClientEvent('esx:showNotification', xPlayer.source, 'Vous avez donné votre clé, vous ne les avez plus !')
+		end)
+end)
+
 ------- Préter clé
 RegisterServerEvent('esx_vehiclelock:preterkey')
 AddEventHandler('esx_vehiclelock:preterkey', function(target, plate)
@@ -503,7 +502,3 @@ MySQL.Async.execute(
 		end)
 
 end)
-
----------------------------------
---- Copyright by ikNox#6088 ---
----------------------------------

@@ -259,8 +259,8 @@ function OpenShopMenu()
 											SetVehicleNumberPlateText(vehicle, newPlate)
 
 											if Config.EnableOwnedVehicles then
+                        TriggerServerEvent('esx_vehiclelock:registerkey', vehicleProps.plate, GetPlayerServerId(closestPlayer))
 												TriggerServerEvent('esx_vehicleshop:setVehicleOwned', vehicleProps)
-												TriggerServerEvent('esx_vehiclelock:registerkey', vehicleProps.plate, GetPlayerServerId(closestPlayer))
 											end
 											ESX.ShowNotification(_U('vehicle_purchased'))
 										end)
@@ -509,6 +509,7 @@ function OpenResellerMenu()
 					vehicleProps.plate = newPlate
 					SetVehicleNumberPlateText(LastVehicles[#LastVehicles], newPlate)
 					TriggerServerEvent('esx_vehicleshop:sellVehicle', model)
+          TriggerServerEvent('esx_vehiclelock:registerkey', vehicleProps.plate, GetPlayerServerId(closestPlayer))
 					TriggerServerEvent('esx_vehicleshop:addToList', GetPlayerServerId(closestPlayer), model, newPlate)
 
 					if Config.EnableSocietyOwnedVehicles then
