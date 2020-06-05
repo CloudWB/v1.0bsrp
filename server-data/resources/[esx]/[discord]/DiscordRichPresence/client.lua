@@ -2,7 +2,7 @@ Citizen.CreateThread(function()
 	while true do
 		SetDiscordAppId(DiscordAppID)
 		SetDiscordRichPresenceAsset('logo')
-        SetDiscordRichPresenceAssetText('Arkadia, Rejoingnez-nous !.')
+        SetDiscordRichPresenceAssetText('Battle Squad, Rejoingnez-nous !.')
         SetDiscordRichPresenceAssetSmall('info')
         SetDiscordRichPresenceAssetSmallText('https://discord.gg/')
 		Citizen.Wait(60000)

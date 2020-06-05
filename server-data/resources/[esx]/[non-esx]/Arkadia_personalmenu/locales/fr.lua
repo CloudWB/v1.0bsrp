@@ -40,7 +40,7 @@ Locales['fr'] = {
   ['admin_nomarker'] = 'Pas de marqueur sur la carte !',
 
   -- Main Menu
-  ['mainmenu_subtitle'] = '~g~Arkadia RôlePlay',
+  ['mainmenu_subtitle'] = '~g~Battle Squad RôlePlay',
   ['mainmenu_gps_button'] = '📟 ~g~GPS',
   ['mainmenu_approach_button'] = '🚶 ~o~Démarche',
   ['mainmenu_voice_button'] = '🔊 ~b~Voix',
