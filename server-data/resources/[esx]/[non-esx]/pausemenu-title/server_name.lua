@@ -9,7 +9,7 @@ end
 	local name = GetPlayerName(PlayerId())
 	local id = GetPlayerServerId(PlayerId())
 	--Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), 'FE_THDR_GTAO', '~y~AltisCity ~t~| ~g~Discord: w5yD9Mp~t~ | ~b~ID: ' .. id .. ' ~t~| ~b~Nom: ~b~' .. name .. " ~t~| ~r~Joueurs: " .. #players .. "/80")
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), 'FE_THDR_GTAO', "~r~BSRP RôlePlay~s~ | Discord : ~g~discord.gg/jJhYQy~s~ | ID: "..id.." | ~r~".. #players .." connecté(e)s")
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), 'FE_THDR_GTAO', "~r~BSRP RôlePlay~s~ | Discord : ~g~discord.gg/EFagewt~s~ | ID: "..id.." | ~r~".. #players .." connecté(e)s")
 end
 
 Citizen.CreateThread(function()

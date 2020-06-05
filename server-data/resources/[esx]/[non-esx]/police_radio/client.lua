@@ -48,7 +48,7 @@ local weapons = {
 	"WEAPON_COMBATPISTOL"
 }
 
--- L'animation de Radio
+--[[-- L'animation de Radio
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait( 0 )
@@ -81,7 +81,7 @@ Citizen.CreateThread(function()
 			end 
 		end 
 	end
-end )
+end )--]]
 
 Citizen.CreateThread(function()
     local dict = "amb@world_human_cop_idles@male@idle_b"
