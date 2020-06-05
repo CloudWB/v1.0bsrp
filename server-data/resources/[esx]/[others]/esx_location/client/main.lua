@@ -40,6 +40,7 @@ function OpenVehicleMenu() -- Menu location véhicules
 
     local elements = {
         {label = 'Scooter 250$', value = 'Faggio', price = 250},
+        {label = 'Blista 500$', value = 'Panto', price = 500},
     }
 
     ESX.UI.Menu.CloseAll()
