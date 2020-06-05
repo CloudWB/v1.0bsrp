@@ -20,7 +20,7 @@ Citizen.CreateThread(function()
 end)
 
 Citizen.CreateThread(function()
-    AddTextEntry("PM_PANE_LEAVE", "~r~Se déconnecter ~w~d'~y~BSRP RôlePlay 😭")
+    AddTextEntry("PM_PANE_LEAVE", "~r~Se déconnecter ~w~de~y~BSRP RôlePlay 😭")
 end)
 
 Citizen.CreateThread(function()
