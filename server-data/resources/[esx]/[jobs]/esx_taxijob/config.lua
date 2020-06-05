@@ -9,7 +9,7 @@ Config.Locale = 'fr'
 Config.AuthorizedVehicles = {
 
 	{
-		model = 'taxi',
+		model = 'caravantaxi',
 		label = 'Taxi'
 	}
 
